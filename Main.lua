@@ -38,4 +38,26 @@ eventFrame:SetScript("OnEvent", function(self, event, ...)
             mainFrame = nil -- Just clear so next toggle is fresh
         end
     end
-end) 
+end)
+
+-- Minimap button support (LibDataBroker + LibDBIcon)
+local hasLDB, LDB = pcall(function() return LibStub("LibDataBroker-1.1") end)
+local hasDBI, DBI = pcall(function() return LibStub("LibDBIcon-1.0") end)
+if hasLDB and hasDBI then
+    local ldb = LDB:NewDataObject("WishListTracker", {
+        type = "launcher",
+        text = "WishListTracker",
+        icon = "Interface/ICONS/INV_Misc_QuestionMark",
+        OnClick = function(self, button)
+            ToggleWishListTracker()
+        end,
+        OnTooltipShow = function(tooltip)
+            tooltip:AddLine("WishListTracker")
+            tooltip:AddLine("Click to open/close the window.")
+            tooltip:AddLine("/wlt to toggle via chat.")
+        end,
+    })
+    DBI:Register("WishListTracker", ldb, {})
+else
+    -- TODO: Add LibDataBroker-1.1 and LibDBIcon-1.0 to the addon for minimap support
+end 

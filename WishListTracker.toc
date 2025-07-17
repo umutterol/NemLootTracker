@@ -1,13 +1,25 @@
 ## Interface: 100007
 ## Title: WishListTracker
-## Notes: Displays Protection Warrior BiS items from Archon.gg
-## Author: YourName
+## Notes: Displays BiS items, enchants, gems, and consumables for all classes/specs from Archon.gg
+## Author: Nemw
 ## Version: 1.0.0
-data_warrior.lua
-WishListTracker_Core.lua
-WishListTracker_Summary.lua
-WishListTracker_Items.lua
-WishListTracker_Enchants.lua
-WishListTracker_Consumables.lua
-WishListTracker_UI.lua
+data/data_warrior.lua
+data/data_paladin.lua
+data/data_hunter.lua
+data/data_rogue.lua
+data/data_priest.lua
+data/data_deathknight.lua
+data/data_shaman.lua
+data/data_mage.lua
+data/data_warlock.lua
+data/data_monk.lua
+data/data_druid.lua
+data/data_demonhunter.lua
+data/data_evoker.lua
+core/WishListTracker_Core.lua
+ui/WishListTracker_Summary.lua
+ui/WishListTracker_Items.lua
+ui/WishListTracker_Enchants.lua
+ui/WishListTracker_Consumables.lua
+ui/WishListTracker_UI.lua
 Main.lua 

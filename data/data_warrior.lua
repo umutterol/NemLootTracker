@@ -138,6 +138,13 @@ WishListData_Warrior = {
             { id = 194302, name = "Storm-Eater's Boon", popularity = "12.7%" },
             { id = 202612, name = "Beacon to the Beyond", popularity = "10.2%" },
         },
+        consumables = {
+            { id = 212283, icon = "Interface/ICONS/inv_potion_purlple", name = "Flask of Alchemical Chaos", type = "Flask", popularity = "29.8%" },
+            { id = 211880, icon = "Interface/ICONS/inv_flask_red", name = "Algari Healing Potion", type = "Health Potion", popularity = "66.0%" },
+            { id = 212265, icon = "Interface/ICONS/trade_alchemy_potiona4", name = "Tempered Potion", type = "Combat Potion", popularity = "73.7%" },
+            { id = 222720, icon = "Interface/ICONS/spell_misc_food", name = "The Sushi Special", type = "Food Buff", popularity = "33.1%" },
+            { id = 224107, icon = "Interface/ICONS/inv_blacksmithing_modifiedcraftingreagent_blue", name = "Algari Mana Oil", type = "Weapon Buff", popularity = "86.8%" },
+        },
     },
     ARMS = {
         icon = "Interface/ICONS/Ability_Warrior_SavageBlow",

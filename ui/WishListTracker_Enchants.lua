@@ -5,6 +5,12 @@ WishListTracker_Enchants = {}
 
 function WishListTracker_Enchants:CreateEnchantsTab(frame, items)
     local enchantsTab = frame.tabContents[3]
+    if not items then
+        local msg = enchantsTab:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
+        msg:SetPoint("CENTER", enchantsTab, "CENTER", 0, 0)
+        msg:SetText("No data available for this class/spec.")
+        return
+    end
     
     -- Items grid container anchored at top
     local gridContainer = CreateFrame("Frame", nil, enchantsTab)
