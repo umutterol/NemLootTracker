@@ -1,9 +1,9 @@
--- WishListTracker_Items.lua
--- Handles the Items tab content for WishListTracker
+-- NemLootTracker_Items.lua
+-- Handles the Items tab content for Nem Loot Tracker
 
-WishListTracker_Items = {}
+NemLootTracker_Items = {}
 
-function WishListTracker_Items:CreateItemsTab(frame, items)
+function NemLootTracker_Items:CreateItemsTab(frame, items)
     local itemsTab = frame.tabContents[2]
     -- Add vertical padding between tabs and first container in Items tab only
     local itemsTopPad = CreateFrame("Frame", nil, itemsTab)
@@ -46,10 +46,10 @@ function WishListTracker_Items:CreateItemsTab(frame, items)
     local _, class = UnitClass("player")
     local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
     local specKey = nil
-    if class and WishListTracker_Core and WishListTracker_Core.SPEC_KEYS and WishListTracker_Core.SPEC_KEYS[class] then
-        specKey = WishListTracker_Core.SPEC_KEYS[class][specID]
+    if class and NemLootTracker_Core and NemLootTracker_Core.SPEC_KEYS and NemLootTracker_Core.SPEC_KEYS[class] then
+        specKey = NemLootTracker_Core.SPEC_KEYS[class][specID]
     end
-    local hideOffhand = WishListTracker_Core.ShouldHideOffhand and class and specKey and WishListTracker_Core:ShouldHideOffhand(class, specKey)
+    local hideOffhand = NemLootTracker_Core.ShouldHideOffhand and class and specKey and NemLootTracker_Core:ShouldHideOffhand(class, specKey)
     -- Dynamically build slot order based on available data
     local dynamicSlotOrder = {}
     for _, slot in ipairs(SLOT_ORDER) do
@@ -123,7 +123,7 @@ function WishListTracker_Items:CreateItemsTab(frame, items)
         local headerOffset = 20
         if slotItems and #slotItems > 0 then
             for i, item in ipairs(slotItems) do
-                local slotFrame = WishListTracker_UI:CreateItemCard(slotContainer, item, slot, col, itemsColWidth, itemCardHeight, itemsColWidth)
+                local slotFrame = NemLootTracker_UI:CreateItemCard(slotContainer, item, slot, col, itemsColWidth, itemCardHeight, itemsColWidth)
                 slotFrame:SetPoint("TOPLEFT", slotContainer, "TOPLEFT", 0, -headerOffset - ((i-1) * (itemCardHeight + 4)))
             end
         else

@@ -1,7 +1,6 @@
--- WishListTracker_UI.lua
--- Handles all UI creation and rendering for WishListTracker
-
-WishListTracker_UI = {}
+-- NemLootTracker_UI.lua
+-- Handles all UI creation and rendering for Nem Loot Tracker
+NemLootTracker_UI = {}
 
 -- Global constants for all modules to use
 ICON_SIZE = 36
@@ -55,7 +54,7 @@ function combine_and_dedupe(list1, list2)
     return result
 end
 
-function WishListTracker_UI:CreateItemCard(parent, item, slot, col, colWidth, iconSize, itemWidth)
+function NemLootTracker_UI:CreateItemCard(parent, item, slot, col, colWidth, iconSize, itemWidth)
     local slotFrame = CreateFrame("Frame", nil, parent, "BackdropTemplate")
     slotFrame:SetSize(colWidth, iconSize)
     slotFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", edgeSize = 8})
@@ -158,8 +157,8 @@ function WishListTracker_UI:CreateItemCard(parent, item, slot, col, colWidth, ic
     return slotFrame
 end
 
-function WishListTracker_UI:CreateMainFrame(items, specName)
-    local frame = CreateFrame("Frame", "WishListTrackerFrame", UIParent, "BasicFrameTemplateWithInset")
+function NemLootTracker_UI:CreateMainFrame(items, specName)
+    local frame = CreateFrame("Frame", "NemLootTrackerFrame", UIParent, "BasicFrameTemplateWithInset")
     frame:SetSize((CARD_WIDTH * 2) + CARD_MARGIN_X + 160, 800)
     frame:SetPoint("CENTER")
     frame.title = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
@@ -174,7 +173,7 @@ function WishListTracker_UI:CreateMainFrame(items, specName)
     frame:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end)
 
     -- Allow closing with ESC
-    tinsert(UISpecialFrames, "WishListTrackerFrame")
+    tinsert(UISpecialFrames, "NemLootTrackerFrame")
 
     -- Tab bar
     local tabNames = {"Summary", "Items", "Enchants & Gems"}
@@ -185,7 +184,7 @@ function WishListTracker_UI:CreateMainFrame(items, specName)
     local totalTabsWidth = numTabs * tabWidth + (numTabs - 1) * 4
     local startX = ((frame:GetWidth() or ((CARD_WIDTH * 2) + CARD_MARGIN_X + 160)) - totalTabsWidth) / 2
     for i, tabName in ipairs(tabNames) do
-        local tab = CreateFrame("Button", "WishListTrackerTab"..i, frame, "UIPanelButtonTemplate")
+        local tab = CreateFrame("Button", "NemLootTrackerTab"..i, frame, "UIPanelButtonTemplate")
         tab:SetID(i)
         tab:SetText(tabName)
         tab:SetSize(tabWidth, tabHeight)
@@ -222,9 +221,9 @@ function WishListTracker_UI:CreateMainFrame(items, specName)
     end
     ShowTab(1)
     -- Create tab content using separate modules
-    WishListTracker_Summary:CreateSummaryTab(frame, items)
-    WishListTracker_Items:CreateItemsTab(frame, items)
-    WishListTracker_Enchants:CreateEnchantsTab(frame, items)
+    NemLootTracker_Summary:CreateSummaryTab(frame, items)
+    NemLootTracker_Items:CreateItemsTab(frame, items)
+    NemLootTracker_Enchants:CreateEnchantsTab(frame, items)
     frame:Hide() -- Hide by default
     return frame
 end 

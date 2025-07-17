@@ -1,9 +1,9 @@
--- WishListTracker_Enchants.lua
--- Handles the Enchants tab content for WishListTracker
+-- NemLootTracker_Enchants.lua
+-- Handles the Enchants tab content for Nem Loot Tracker
 
-WishListTracker_Enchants = {}
+NemLootTracker_Enchants = {}
 
-function WishListTracker_Enchants:CreateEnchantsTab(frame, items)
+function NemLootTracker_Enchants:CreateEnchantsTab(frame, items)
     local enchantsTab = frame.tabContents[3]
     if not items then
         local msg = enchantsTab:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
@@ -27,10 +27,10 @@ function WishListTracker_Enchants:CreateEnchantsTab(frame, items)
     local _, class = UnitClass("player")
     local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
     local specKey = nil
-    if class and WishListTracker_Core and WishListTracker_Core.SPEC_KEYS and WishListTracker_Core.SPEC_KEYS[class] then
-        specKey = WishListTracker_Core.SPEC_KEYS[class][specID]
+    if class and NemLootTracker_Core and NemLootTracker_Core.SPEC_KEYS and NemLootTracker_Core.SPEC_KEYS[class] then
+        specKey = NemLootTracker_Core.SPEC_KEYS[class][specID]
     end
-    local hideOffhand = WishListTracker_Core.ShouldHideOffhand and class and specKey and WishListTracker_Core:ShouldHideOffhand(class, specKey)
+    local hideOffhand = NemLootTracker_Core.ShouldHideOffhand and class and specKey and NemLootTracker_Core:ShouldHideOffhand(class, specKey)
     local enchSlotOrder = {"HEAD","LEGS","BACK","FEET","CHEST","RINGS","WRIST"}
     if items.enchants and items.enchants["MAIN_HAND"] then
         table.insert(enchSlotOrder, "MAIN_HAND")

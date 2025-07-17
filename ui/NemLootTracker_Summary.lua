@@ -1,9 +1,9 @@
--- WishListTracker_Summary.lua
--- Handles the Summary tab content for WishListTracker
+-- NemLootTracker_Summary.lua
+-- Handles the Summary tab content for Nem Loot Tracker
 
-WishListTracker_Summary = {}
+NemLootTracker_Summary = {}
 
-function WishListTracker_Summary:CreateSummaryTab(frame, items)
+function NemLootTracker_Summary:CreateSummaryTab(frame, items)
     local summary = frame.tabContents[1]
 
     -- Spec Icon and Talent String Container
@@ -88,10 +88,10 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
     local _, class = UnitClass("player")
     local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
     local specKey = nil
-    if class and WishListTracker_Core and WishListTracker_Core.SPEC_KEYS and WishListTracker_Core.SPEC_KEYS[class] then
-        specKey = WishListTracker_Core.SPEC_KEYS[class][specID]
+    if class and NemLootTracker_Core and NemLootTracker_Core.SPEC_KEYS and NemLootTracker_Core.SPEC_KEYS[class] then
+        specKey = NemLootTracker_Core.SPEC_KEYS[class][specID]
     end
-    local hideOffhand = WishListTracker_Core.ShouldHideOffhand and class and specKey and WishListTracker_Core:ShouldHideOffhand(class, specKey)
+    local hideOffhand = NemLootTracker_Core.ShouldHideOffhand and class and specKey and NemLootTracker_Core:ShouldHideOffhand(class, specKey)
     -- Prepare slot rendering order for summary grid
     local summarySlots = {}
     for idx, slot in ipairs(SLOT_ORDER) do
@@ -141,7 +141,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
             slotItems = items and items[slot.key]
         end
         local item = slotItems[1]
-        local slotFrame = WishListTracker_UI:CreateItemCard(gridContainer, item, slot, col, colWidth, ICON_SIZE, ITEM_WIDTH)
+        local slotFrame = NemLootTracker_UI:CreateItemCard(gridContainer, item, slot, col, colWidth, ICON_SIZE, ITEM_WIDTH)
         if col == 0 then
             slotFrame:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -row * (ICON_SIZE + rowPadding))
         else

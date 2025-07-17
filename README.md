@@ -1,6 +1,6 @@
-# WishListTracker
+# Nem Loot Tracker (NLT)
 
-WishListTracker is a World of Warcraft addon that displays Best-in-Slot (BiS) items, enchants, gems, and consumables for all classes and specs, based on data from Warcraft Logs and other sources. It provides a clean, modern UI with summary, item, and enchant tabs, and supports quick access via slash command or minimap button.
+Nem Loot Tracker (NLT) helps you track your loot, wishlists, gems, enchants, and upgrades for all classes and specs. Powered by data from Archon and curated by Nemw.
 
 ## Features
 - BiS lists for all classes and specs (expandable via data files)

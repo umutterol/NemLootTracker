@@ -1,7 +1,6 @@
--- WishListTracker_Core.lua
--- Core logic for WishListTracker: handles data loading and spec/class detection.
-
-WishListTracker_Core = {}
+-- NemLootTracker_Core.lua
+-- Core logic for Nem Loot Tracker: handles data loading and spec/class detection.
+NemLootTracker_Core = {}
 
 -- Mapping of spec IDs to spec keys in the data file (expand as needed)
 local SPEC_KEYS = {
@@ -99,7 +98,7 @@ local HIDE_OFFHAND_SPECS = {
 }
 
 -- Helper to check if off-hand should be hidden for the current class/spec
-function WishListTracker_Core:ShouldHideOffhand(class, spec)
+function NemLootTracker_Core:ShouldHideOffhand(class, spec)
     if HIDE_OFFHAND_SPECS[class] and HIDE_OFFHAND_SPECS[class][spec] then
         return true
     end
@@ -107,7 +106,7 @@ function WishListTracker_Core:ShouldHideOffhand(class, spec)
 end
 
 -- Returns the item list for the current player, or nil if not supported
-function WishListTracker_Core:GetCurrentSpecItems()
+function NemLootTracker_Core:GetCurrentSpecItems()
     local _, class = UnitClass("player")
     local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
     local dataTableName = CLASS_DATA_TABLES[class]

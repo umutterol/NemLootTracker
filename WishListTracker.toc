@@ -1,8 +1,10 @@
+## Title: Nem Loot Tracker
+## X-ShortName: NLT
+## Notes: Track your loot, wishlists, gems, enchants, and upgrades with Nem Loot Tracker (NLT).
 ## Interface: 100007
-## Title: WishListTracker
-## Notes: Displays BiS items, enchants, gems, and consumables for all classes/specs from Archon.gg
 ## Author: Nemw
 ## Version: 1.0.0
+
 data/data_warrior.lua
 data/data_paladin.lua
 data/data_hunter.lua
@@ -16,10 +18,9 @@ data/data_monk.lua
 data/data_druid.lua
 data/data_demonhunter.lua
 data/data_evoker.lua
-core/WishListTracker_Core.lua
-ui/WishListTracker_Summary.lua
-ui/WishListTracker_Items.lua
-ui/WishListTracker_Enchants.lua
-ui/WishListTracker_Consumables.lua
-ui/WishListTracker_UI.lua
+core/NemLootTracker_Core.lua
+ui/NemLootTracker_UI.lua
+ui/NemLootTracker_Enchants.lua
+ui/NemLootTracker_Items.lua
+ui/NemLootTracker_Summary.lua
 Main.lua 
