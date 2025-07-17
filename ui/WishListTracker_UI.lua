@@ -113,6 +113,8 @@ function WishListTracker_UI:CreateItemCard(parent, item, slot, col, colWidth, ic
     itemName.text:SetAllPoints()
     itemName.text:SetTextColor(163/255, 48/255, 201/255)
     local displayName = item.name
+    -- Trim 'BiS' from the start of the name if present
+    displayName = displayName:gsub('^BiS', ''):gsub('^%s+', '')
     if #displayName > 25 then
         displayName = string.sub(displayName, 1, 25) .. "..."
     end
@@ -175,7 +177,7 @@ function WishListTracker_UI:CreateMainFrame(items, specName)
     tinsert(UISpecialFrames, "WishListTrackerFrame")
 
     -- Tab bar
-    local tabNames = {"Summary", "Items", "Enchants"}
+    local tabNames = {"Summary", "Items", "Enchants & Gems"}
     frame.tabs = {}
     local tabWidth = 120
     local tabHeight = 24

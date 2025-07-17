@@ -9,7 +9,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
     -- Spec Icon and Talent String Container
     local specTalentContainer = CreateFrame("Frame", nil, summary)
     specTalentContainer:SetSize((CARD_WIDTH * 2) + CARD_MARGIN_X + 16, 60)
-    specTalentContainer:SetPoint("TOP", summary, "TOP", 0, -20)
+    specTalentContainer:SetPoint("TOP", summary, "TOP", 0, 0)
     specTalentContainer:SetPoint("CENTER", summary, "CENTER", 0, 0)
 
     -- Spec Icon
@@ -30,7 +30,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
     summary.talentEditBox = CreateFrame("EditBox", nil, specTalentContainer, "InputBoxTemplate")
     summary.talentEditBox:SetSize(480, 32)
     summary.talentEditBox:SetPoint("LEFT", summary.specIcon, "RIGHT", 24, 0)
-    summary.talentEditBox:SetPoint("CENTER", specTalentContainer, "CENTER", 60, 0)
+    summary.talentEditBox:SetPoint("CENTER", specTalentContainer, "CENTER", 0, 0)
     summary.talentEditBox:SetAutoFocus(false)
     summary.talentEditBox:SetFontObject(GameFontNormal)
     summary.talentEditBox:SetTextInsets(8, 8, 0, 0)
@@ -84,39 +84,68 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
     local fingerList = combine_and_dedupe(items and items.FINGER1, items and items.FINGER2)
     local trinketList = combine_and_dedupe(items and items.TRINKET1, items and items.TRINKET2)
 
+    -- Determine class and spec for off-hand hiding
+    local _, class = UnitClass("player")
+    local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
+    local specKey = nil
+    if class and WishListTracker_Core and WishListTracker_Core.SPEC_KEYS and WishListTracker_Core.SPEC_KEYS[class] then
+        specKey = WishListTracker_Core.SPEC_KEYS[class][specID]
+    end
+    local hideOffhand = WishListTracker_Core.ShouldHideOffhand and class and specKey and WishListTracker_Core:ShouldHideOffhand(class, specKey)
+    -- Prepare slot rendering order for summary grid
+    local summarySlots = {}
     for idx, slot in ipairs(SLOT_ORDER) do
+        if slot.key ~= "FINGER" and slot.key ~= "TRINKET" and (slot.key ~= "OFF_HAND" or not hideOffhand) then
+            table.insert(summarySlots, slot)
+        end
+    end
+    -- Insert 2x TRINKET and 2x FINGER slots at correct positions
+    table.insert(summarySlots, 3, { key = "TRINKET", label = "Trinket" }) -- 1st trinket (right col, 2nd row)
+    table.insert(summarySlots, 4, { key = "TRINKET2", label = "Trinket (2nd)" }) -- 2nd trinket (right col, 3rd row)
+    table.insert(summarySlots, 5, { key = "FINGER2", label = "Finger (2nd)" }) -- 2nd finger (left col, 3rd row)
+    table.insert(summarySlots, 6, { key = "FINGER", label = "Finger" })   -- 1st finger (left col, 2nd row)
+
+    -- Build a filtered list of only slots with items
+    local visibleSlots = {}
+    for _, slot in ipairs(summarySlots) do
+        local slotItems = nil
+        if slot.key == "FINGER" then
+            slotItems = fingerList
+        elseif slot.key == "FINGER2" then
+            slotItems = fingerList and fingerList[2] and { fingerList[2] } or nil
+        elseif slot.key == "TRINKET" then
+            slotItems = trinketList
+        elseif slot.key == "TRINKET2" then
+            slotItems = trinketList and trinketList[2] and { trinketList[2] } or nil
+        else
+            slotItems = items and items[slot.key]
+        end
+        if slotItems and #slotItems > 0 then
+            table.insert(visibleSlots, slot)
+        end
+    end
+    -- Render only visible slots, packed with no empty spaces
+    for idx, slot in ipairs(visibleSlots) do
         local col = ((idx - 1) % numCols)
         local row = math.floor((idx - 1) / numCols)
         local slotItems = nil
         if slot.key == "FINGER" then
             slotItems = fingerList
+        elseif slot.key == "FINGER2" then
+            slotItems = fingerList and fingerList[2] and { fingerList[2] } or nil
         elseif slot.key == "TRINKET" then
             slotItems = trinketList
+        elseif slot.key == "TRINKET2" then
+            slotItems = trinketList and trinketList[2] and { trinketList[2] } or nil
         else
             slotItems = items and items[slot.key]
         end
-        if slotItems and #slotItems > 0 then
-            local item = slotItems[1]
-            local slotFrame = WishListTracker_UI:CreateItemCard(gridContainer, item, slot, col, colWidth, ICON_SIZE, ITEM_WIDTH)
-            if col == 0 then
-                slotFrame:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -row * (ICON_SIZE + rowPadding))
-            else
-                slotFrame:SetPoint("TOPRIGHT", gridContainer, "TOPRIGHT", -8, -row * (ICON_SIZE + rowPadding))
-            end
+        local item = slotItems[1]
+        local slotFrame = WishListTracker_UI:CreateItemCard(gridContainer, item, slot, col, colWidth, ICON_SIZE, ITEM_WIDTH)
+        if col == 0 then
+            slotFrame:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -row * (ICON_SIZE + rowPadding))
         else
-            local slotFrame = CreateFrame("Frame", nil, gridContainer, "BackdropTemplate")
-            slotFrame:SetSize(colWidth, ICON_SIZE)
-            if col == 0 then
-                slotFrame:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -row * (ICON_SIZE + rowPadding))
-            else
-                slotFrame:SetPoint("TOPRIGHT", gridContainer, "TOPRIGHT", -8, -row * (ICON_SIZE + rowPadding))
-            end
-            slotFrame:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", edgeSize = 8})
-            slotFrame:SetBackdropColor(0.12, 0.12, 0.12, 0.85)
-            slotFrame:SetBackdropBorderColor(0.3, 0.3, 0.3, 0.7)
-            local msg = slotFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-            msg:SetPoint("TOPLEFT", slotFrame, "TOPLEFT", 0, -24)
-            msg:SetText("No item")
+            slotFrame:SetPoint("TOPRIGHT", gridContainer, "TOPRIGHT", -8, -row * (ICON_SIZE + rowPadding))
         end
     end
 
@@ -125,7 +154,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
     if #consumables > 0 then
         -- Header text between items and consumables
         local consumablesHeader = summary:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
-        consumablesHeader:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 270, -350)
+        consumablesHeader:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 270, -400)
         consumablesHeader:SetText("Consumables")
         -- Two-column layout
         local leftCount = 3
@@ -138,7 +167,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
             if c then
                 local row = CreateFrame("Frame", nil, summary, "BackdropTemplate")
                 row:SetSize(colWidth, rowHeight)
-                row:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -370 - (i-1)*rowHeight)
+                row:SetPoint("TOPLEFT", gridContainer, "TOPLEFT", 8, -420 - (i-1)*rowHeight)
                 row:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", edgeSize = 8})
                 row:SetBackdropColor(0.12, 0.12, 0.12, 0.85)
                 row:SetBackdropBorderColor(0.3, 0.3, 0.3, 0.7)
@@ -148,7 +177,11 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
                 icon:SetPoint("LEFT", row, "LEFT", 0, 0)
                 icon.texture = icon:CreateTexture(nil, "ARTWORK")
                 icon.texture:SetAllPoints()
-                icon.texture:SetTexture(c.icon)
+                local iconTexture = c.icon
+                if not iconTexture or iconTexture == "" then
+                    iconTexture = GetItemIcon(c.id)
+                end
+                icon.texture:SetTexture(iconTexture)
                 icon:EnableMouse(true)
                 icon:SetHighlightTexture("Interface/Buttons/ButtonHilight-Square")
                 icon:SetScript("OnEnter", function(self)
@@ -194,7 +227,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
             if c then
                 local row = CreateFrame("Frame", nil, summary, "BackdropTemplate")
                 row:SetSize(colWidth, rowHeight)
-                row:SetPoint("TOPRIGHT", gridContainer, "TOPRIGHT", -8, -370 - (i-1)*rowHeight)
+                row:SetPoint("TOPRIGHT", gridContainer, "TOPRIGHT", -8, -420 - (i-1)*rowHeight)
                 row:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", edgeSize = 8})
                 row:SetBackdropColor(0.12, 0.12, 0.12, 0.85)
                 row:SetBackdropBorderColor(0.3, 0.3, 0.3, 0.7)
@@ -204,7 +237,11 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
                 icon:SetPoint("RIGHT", row, "RIGHT", 0, 0)
                 icon.texture = icon:CreateTexture(nil, "ARTWORK")
                 icon.texture:SetAllPoints()
-                icon.texture:SetTexture(c.icon)
+                local iconTexture = c.icon
+                if not iconTexture or iconTexture == "" then
+                    iconTexture = GetItemIcon(c.id)
+                end
+                icon.texture:SetTexture(iconTexture)
                 icon:EnableMouse(true)
                 icon:SetHighlightTexture("Interface/Buttons/ButtonHilight-Square")
                 icon:SetScript("OnEnter", function(self)
@@ -246,4 +283,7 @@ function WishListTracker_Summary:CreateSummaryTab(frame, items)
             end
         end
     end
+
+    -- Add Epic Gems and Gems sections below the items grid, styled like enchants
+    -- (REMOVED: Epic Gems and Gems containers are now only shown in the Enchants page)
 end 
