@@ -5,5 +5,9 @@
 ## Version: 1.0.0
 data_warrior.lua
 WishListTracker_Core.lua
+WishListTracker_Summary.lua
+WishListTracker_Items.lua
+WishListTracker_Enchants.lua
+WishListTracker_Consumables.lua
 WishListTracker_UI.lua
 Main.lua 
