@@ -15,7 +15,7 @@ jobs:
       - name: Zip Addon
         run: |
           cd ..
-          zip -r NemLootTracker.zip WishListTracker
+          zip -r NemLootTracker.zip NemLootTracker
 
       - name: Upload to CurseForge
         uses: BigWigsMods/packager@v2
