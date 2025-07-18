@@ -1,0 +1,24 @@
+name: Auto Release to CurseForge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Zip Addon
+        run: |
+          cd ..
+          zip -r NemLootTracker.zip WishListTracker
+
+      - name: Upload to CurseForge
+        uses: BigWigsMods/packager@v2
+        with:
+          api-token: ${{ secrets.CF_API_KEY }}
+          project-id: 1309330 
