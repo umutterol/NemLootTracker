@@ -18,7 +18,4 @@ jobs:
           zip -r NemLootTracker.zip NemLootTracker
 
       - name: Upload to CurseForge
-        uses: BigWigsMods/packager@v2
-        with:
-          api-token: ${{ secrets.CF_API_KEY }}
-          project-id: 1309330 
+        uses: BigWigsMods/packager@v2 

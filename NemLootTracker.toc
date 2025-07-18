@@ -4,6 +4,7 @@
 ## Interface: 100007
 ## Author: Nemw
 ## Version: 1.0.0
+## X-Curse-Project-ID: 1309330
 
 data/data_warrior.lua
 data/data_paladin.lua
