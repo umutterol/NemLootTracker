@@ -162,8 +162,8 @@ function NemLootTracker_UI:CreateMainFrame(items, specName)
     frame:SetSize((CARD_WIDTH * 2) + CARD_MARGIN_X + 160, 800)
     frame:SetPoint("CENTER")
     frame.title = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge")
-    frame.title:SetPoint("TOP", 0, -5)
-    frame.title:SetText((specName and (specName:sub(1,1):upper()..specName:sub(2):lower()) or "") .. "NEMW Class Helper")
+    frame.title:SetPoint("TOP", 0, -1)
+    frame.title:SetText("Nem Loot Tracker")
 
     -- Make frame moveable
     frame:SetMovable(true)
