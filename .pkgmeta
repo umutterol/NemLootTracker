@@ -6,8 +6,4 @@ ignore:
   - tests/
   - .gitignore
   - .pkgmeta
-  - *.py
-  - *.sh
-  - *.bat
-  - *.md
   - .DS_Store 
