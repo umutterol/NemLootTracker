@@ -72,7 +72,7 @@ local SPEC_KEYS = {
 }
 
 -- Mapping of class to global data table name
-local CLASS_DATA_TABLES = {
+NemLootTracker_Core.CLASS_DATA_TABLES = {
     WARRIOR = "WishListData_Warrior",
     PALADIN = "WishListData_Paladin",
     HUNTER = "WishListData_Hunter",
@@ -109,7 +109,7 @@ end
 function NemLootTracker_Core:GetCurrentSpecItems()
     local _, class = UnitClass("player")
     local specID = GetSpecialization() and GetSpecializationInfo(GetSpecialization())
-    local dataTableName = CLASS_DATA_TABLES[class]
+    local dataTableName = NemLootTracker_Core.CLASS_DATA_TABLES[class]
     if dataTableName and _G[dataTableName] and SPEC_KEYS[class] and SPEC_KEYS[class][specID] then
         local data = _G[dataTableName]
         local specKey = SPEC_KEYS[class][specID]
@@ -118,4 +118,43 @@ function NemLootTracker_Core:GetCurrentSpecItems()
         end
     end
     return nil, nil
+end
+
+-- Returns a table of {spec, rank, usage} for each spec in the class for a given itemID
+function NemLootTracker_Core:GetItemUsageAcrossSpecs(class, itemID)
+    local results = {}
+    local dataTableName = NemLootTracker_Core.CLASS_DATA_TABLES[class]
+    local data = dataTableName and _G[dataTableName]
+    local specKeys = SPEC_KEYS[class]
+    if not data or not specKeys then return results end
+    for specID, specKey in pairs(specKeys) do
+        local specData = data[specKey]
+        local found = false
+        if specData then
+            for slot, items in pairs(specData) do
+                if type(items) == "table" then
+                    for idx, item in ipairs(items) do
+                        if item.id == itemID then
+                            table.insert(results, {
+                                spec = specKey,
+                                rank = idx,
+                                usage = item.popularity
+                            })
+                            found = true
+                            break
+                        end
+                    end
+                end
+                if found then break end
+            end
+        end
+        if not found then
+            table.insert(results, {
+                spec = specKey,
+                rank = nil,
+                usage = nil
+            })
+        end
+    end
+    return results
 end 

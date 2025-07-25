@@ -21,7 +21,8 @@ data/data_demonhunter.lua
 data/data_evoker.lua
 core/NemLootTracker_Core.lua
 ui/NemLootTracker_UI.lua
-ui/NemLootTracker_Enchants.lua
 ui/NemLootTracker_Items.lua
+ui/NemLootTracker_Enchants.lua
 ui/NemLootTracker_Summary.lua
+ui/NemLootTracker_Tooltip.lua
 Main.lua 
