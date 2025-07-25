@@ -20,9 +20,9 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
 
-    - name: Create new tag based on current date
+    - name: Create new tag based on current date and time
       run: |
-        NEW_TAG=$(date +'%Y%m%d')
+        NEW_TAG=$(date +'%y%m%d-%H%M')
         echo "Created new tag: $NEW_TAG"
         echo "NEW_TAG=$NEW_TAG" >> $GITHUB_ENV
         git tag $NEW_TAG
