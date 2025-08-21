@@ -121,10 +121,10 @@ WishListData_Warlock = {
             { id = 242494, name = "Lily of the Eternal Weave", popularity = "15.2%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "69.3%" },
-            { id = 212265, name = "Tempered Potion", popularity = "73.2%" },
-            { id = 222720, name = "The Sushi Special", popularity = "20.0%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "88.3%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "68.5%" },
+            { id = 212265, name = "Tempered Potion", popularity = "72.4%" },
+            { id = 222720, name = "The Sushi Special", popularity = "20.2%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "87.9%" }
         }
     },
     DEMONOLOGY = {
@@ -247,10 +247,10 @@ WishListData_Warlock = {
             { id = 230027, name = "House of Cards", popularity = "14.5%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "66.0%" },
-            { id = 212265, name = "Tempered Potion", popularity = "68.6%" },
-            { id = 222720, name = "The Sushi Special", popularity = "24.2%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "86.6%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "65.3%" },
+            { id = 212265, name = "Tempered Potion", popularity = "68.0%" },
+            { id = 222720, name = "The Sushi Special", popularity = "24.4%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "85.9%" }
         }
     },
     DESTRUCTION = {

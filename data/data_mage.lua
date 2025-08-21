@@ -5,26 +5,26 @@ WishListData_Mage = {
         talent = "C4DAAAAAAAAAAAAAAAAAAAAAAMjZxsNDmZMzsAMzwYamxMAAAAAAMAgZmplZbbGAAbAAAAAAsBgxgZWmlZMzYMDzMzMjZMLjB",
         statprio = "Haste > Vers > Mastery > Crit",
         enchants = {
-            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "36.0%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "60.6%" },
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "68.0%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "67.4%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "88.8%" },
-            RINGS = { id = 223680, name = "Radiant Versatility", popularity = "48.8%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "64.9%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "31.5%" }
+            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "32.5%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "59.6%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "68.3%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "67.1%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "88.2%" },
+            RINGS = { id = 223680, name = "Radiant Versatility", popularity = "48.4%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "64.6%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "30.8%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "73.3%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "4.4%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "72.6%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "4.3%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "1.5%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.2%" }
         },
         gems = {
-            { id = 213485, name = "Versatile Emerald", popularity = "58.4%" },
-            { id = 213470, name = "Quick Sapphire", popularity = "49.5%" },
-            { id = 213467, name = "Deadly Sapphire", popularity = "34.7%" },
-            { id = 213461, name = "Versatile Ruby", popularity = "32.9%" }
+            { id = 213485, name = "Versatile Emerald", popularity = "57.9%" },
+            { id = 213470, name = "Quick Sapphire", popularity = "48.9%" },
+            { id = 213467, name = "Deadly Sapphire", popularity = "33.8%" },
+            { id = 213461, name = "Versatile Ruby", popularity = "32.2%" }
         },
         HEAD = {
             { id = 229343, name = "Aspectral Emissary's Crystalline Cowl", popularity = "41.5%" },
@@ -121,10 +121,10 @@ WishListData_Mage = {
             { id = 242494, name = "Lily of the Eternal Weave", popularity = "14.0%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "66.6%" },
-            { id = 212265, name = "Tempered Potion", popularity = "72.6%" },
-            { id = 222720, name = "The Sushi Special", popularity = "27.6%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "86.5%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "66.0%" },
+            { id = 212265, name = "Tempered Potion", popularity = "72.2%" },
+            { id = 222720, name = "The Sushi Special", popularity = "28.0%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "85.9%" }
         }
     },
     FIRE = {
@@ -377,11 +377,10 @@ WishListData_Mage = {
             { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "15.7%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "53.7%" },
-            { id = 211880, name = "Algari Healing Potion", popularity = "29.1%" },
-            { id = 212265, name = "Tempered Potion", popularity = "65.2%" },
-            { id = 222720, name = "The Sushi Special", popularity = "25.3%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "82.0%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "53.3%" },
+            { id = 212265, name = "Tempered Potion", popularity = "64.4%" },
+            { id = 222720, name = "The Sushi Special", popularity = "25.6%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "81.4%" }
         }
     }
 }
