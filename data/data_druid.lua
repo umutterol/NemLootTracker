@@ -3,28 +3,28 @@ WishListData_Druid = {
     BALANCE = {
         icon = "Interface/ICONS/Spell_Nature_StarFall",
         talent = "CYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALUmtGGzMAzCLzMzCDjFzyMLzMbzMzMzMLmlxwgNswAMW2mZDjZbAMBAAAYxMjBYzYGD",
-        statprio = "Mastery > Haste > Crit > Vers",
+        statprio = "Mastery > Haste > Vers > Crit",
         enchants = {
-            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "28.3%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "79.7%" },
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "59.2%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "67.6%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "87.1%" },
-            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "62.1%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "58.6%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "32.4%" }
+            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "24.9%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "79.3%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "59.4%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "67.5%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "86.8%" },
+            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "62.0%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "58.2%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "32.6%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "62.6%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "9.9%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "62.1%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "9.7%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.8%" },
-            { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
+            { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         gems = {
-            { id = 213494, name = "Quick Onyx", popularity = "73.2%" },
-            { id = 213482, name = "Masterful Emerald", popularity = "53.2%" },
-            { id = 213458, name = "Masterful Ruby", popularity = "25.8%" },
-            { id = 213473, name = "Masterful Sapphire", popularity = "22.8%" }
+            { id = 213494, name = "Quick Onyx", popularity = "73.0%" },
+            { id = 213482, name = "Masterful Emerald", popularity = "52.3%" },
+            { id = 213458, name = "Masterful Ruby", popularity = "25.4%" },
+            { id = 213473, name = "Masterful Sapphire", popularity = "22.4%" }
         },
         HEAD = {
             { id = 237682, name = "BiSSkymane of the Mother Eagle", popularity = "50.7%" },
@@ -491,11 +491,11 @@ WishListData_Druid = {
             { id = 230186, name = "Mister Pick-Me-Up", popularity = "12.5%" }
         },
         consumables = {
-            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "52.4%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "15.2%" },
-            { id = 212241, name = "Algari Mana Potion", popularity = "13.5%" },
-            { id = 222720, name = "The Sushi Special", popularity = "23.5%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "69.5%" }
+            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "51.5%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "15.4%" },
+            { id = 212241, name = "Algari Mana Potion", popularity = "13.4%" },
+            { id = 222720, name = "The Sushi Special", popularity = "23.8%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "69.1%" }
         }
     }
 }

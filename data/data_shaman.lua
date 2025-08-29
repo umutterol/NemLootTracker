@@ -261,26 +261,26 @@ WishListData_Shaman = {
         talent = "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmZmZbmthZegZzsNWMsYxMLwAGwswEYsgZmFLzsNzMkZjZmpxMDDsMjZGmlxysYGAAMA",
         statprio = "Crit > Haste > Vers > Mastery",
         enchants = {
-            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "16.5%" },
-            LEGS = { id = 222896, name = "Daybreak Spellthread", popularity = "50.4%" },
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "42.4%" },
+            HEAD = { id = 239095, name = "Greater Rune of the Void Ritual", popularity = "14.4%" },
+            LEGS = { id = 222896, name = "Daybreak Spellthread", popularity = "49.8%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "43.2%" },
             FEET = { id = 223656, name = "Defender's March", popularity = "59.3%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "41.9%" },
-            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "58.2%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "39.2%" },
-            MAINHAND = { id = 223778, name = "Authority of Fiery Resolve", popularity = "59.9%" }
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "42.4%" },
+            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "57.7%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "38.6%" },
+            MAINHAND = { id = 223778, name = "Authority of Fiery Resolve", popularity = "59.3%" }
         },
         epic_gems = {
             { id = 213743, name = "Culminating Blasphemite", popularity = "30.9%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "19.1%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "16.6%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "19.2%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "16.2%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         gems = {
-            { id = 213461, name = "Versatile Ruby", popularity = "65.8%" },
-            { id = 213467, name = "Deadly Sapphire", popularity = "41.1%" },
-            { id = 213479, name = "Deadly Emerald", popularity = "38.5%" },
-            { id = 213455, name = "Quick Ruby", popularity = "24.6%" }
+            { id = 213461, name = "Versatile Ruby", popularity = "64.8%" },
+            { id = 213467, name = "Deadly Sapphire", popularity = "40.4%" },
+            { id = 213479, name = "Deadly Emerald", popularity = "38.8%" },
+            { id = 213455, name = "Quick Ruby", popularity = "25.1%" }
         },
         HEAD = {
             { id = 237637, name = "BiSAspect of Channeled Fury", popularity = "46.4%" },
