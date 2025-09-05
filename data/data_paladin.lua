@@ -5,126 +5,126 @@ WishListData_Paladin = {
         talent = "CEEAAAAAAAAAAAAAAAAAAAAAAAAAAYAAzAAAMAbjZYmxMjlZMLzMsMDmZbz0WMjZMzMMwslBAMwAbAbMLmxMLz2Mzs0AAAAsAYwmZghhB",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "59.1%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "40.9%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "75.4%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "56.9%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "47.0%" },
-            RINGS = { id = 223674, name = "Radiant Haste", popularity = "53.8%" },
-            MAINHAND = { id = 223778, name = "Authority of Fiery Resolve", popularity = "37.1%" }
+            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "58.6%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "40.7%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "74.8%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "56.3%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "46.4%" },
+            RINGS = { id = 223674, name = "Radiant Haste", popularity = "52.3%" },
+            MAINHAND = { id = 223778, name = "Authority of Fiery Resolve", popularity = "35.3%" }
         },
         epic_gems = {
-            { id = 213746, name = "Elusive Blasphemite", popularity = "41.4%" },
-            { id = 213743, name = "Culminating Blasphemite", popularity = "22.6%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "3.2%" },
-            { id = 217115, name = "Cubic Blasphemia", popularity = "0.5%" }
+            { id = 213746, name = "Elusive Blasphemite", popularity = "41.1%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "22.2%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "3.3%" },
+            { id = 217115, name = "Cubic Blasphemia", popularity = "0.6%" }
         },
         gems = {
-            { id = 213746, name = "Elusive Blasphemite", popularity = "41.4%" },
-            { id = 213743, name = "Culminating Blasphemite", popularity = "22.6%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "3.2%" },
-            { id = 217115, name = "Cubic Blasphemia", popularity = "0.5%" }
+            { id = 213746, name = "Elusive Blasphemite", popularity = "41.1%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "22.2%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "3.3%" },
+            { id = 217115, name = "Cubic Blasphemia", popularity = "0.6%" }
         },
         HEAD = {
-            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "58.3%" },
-            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "11.9%" },
-            { id = 246283, name = "Crown of Absolute Command", popularity = "6.7%" },
-            { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "5.1%" },
-            { id = 178812, name = "Wing Commander's Helmet", popularity = "4.5%" }
+            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "60.6%" },
+            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "10.1%" },
+            { id = 246283, name = "Crown of Absolute Command", popularity = "6.5%" },
+            { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "4.8%" },
+            { id = 178812, name = "Wing Commander's Helmet", popularity = "4.2%" }
         },
         NECK = {
-            { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "18.9%" },
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "15.3%" },
-            { id = 178827, name = "Sin Stained Pendant", popularity = "14.3%" },
-            { id = 252009, name = "Bloodstained Memento", popularity = "9.3%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "8.7%" }
+            { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "19.4%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "15.5%" },
+            { id = 178827, name = "Sin Stained Pendant", popularity = "14.2%" },
+            { id = 252009, name = "Bloodstained Memento", popularity = "9.4%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "8.1%" }
         },
         SHOULDERS = {
-            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "63.5%" },
-            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "13.3%" },
-            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "4.3%" },
-            { id = 185803, name = "Stoneflesh Spaulders", popularity = "4.0%" },
-            { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "3.3%" }
+            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "65.6%" },
+            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "11.3%" },
+            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "3.9%" },
+            { id = 185803, name = "Stoneflesh Spaulders", popularity = "3.8%" },
+            { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "3.2%" }
         },
         BACK = {
-            { id = 235499, name = "BiSReshii Wraps", popularity = "97.4%" }
+            { id = 235499, name = "BiSReshii Wraps", popularity = "96.4%" }
         },
         CHEST = {
-            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "70.1%" },
-            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "10.7%" },
-            { id = 221161, name = "Experimental Goresilk Chestguard", popularity = "3.4%" },
-            { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "3.1%" },
-            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "3.0%" }
+            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "72.0%" },
+            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "8.9%" },
+            { id = 221161, name = "Experimental Goresilk Chestguard", popularity = "3.1%" },
+            { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "2.9%" },
+            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "2.7%" }
         },
         WRISTS = {
-            { id = 222435, name = "Everforged Vambraces", popularity = "22.3%" },
-            { id = 242475, name = "Eco-Dome Access Bands", popularity = "14.5%" },
-            { id = 221118, name = "Flameforged Armguard", popularity = "14.1%" },
+            { id = 222435, name = "Everforged Vambraces", popularity = "22.6%" },
+            { id = 242475, name = "Eco-Dome Access Bands", popularity = "14.4%" },
+            { id = 221118, name = "Flameforged Armguard", popularity = "13.9%" },
             { id = 237545, name = "Discarded Nutrient Shackles", popularity = "9.2%" },
             { id = 185815, name = "Vambraces of Verification", popularity = "9.1%" }
         },
         HANDS = {
-            { id = 237620, name = "Protectors of the Lucent Battalion", popularity = "51.5%" },
-            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "13.9%" },
-            { id = 234504, name = "BiSJumpstarter's Scaffold-Scrapers", popularity = "9.4%" },
-            { id = 221151, name = "Devourer's Gauntlets", popularity = "7.9%" },
-            { id = 237526, name = "Breached Containment Guards", popularity = "3.7%" }
+            { id = 237620, name = "Protectors of the Lucent Battalion", popularity = "53.5%" },
+            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "11.9%" },
+            { id = 234504, name = "BiSJumpstarter's Scaffold-Scrapers", popularity = "8.8%" },
+            { id = 221151, name = "Devourer's Gauntlets", popularity = "7.8%" },
+            { id = 237526, name = "Breached Containment Guards", popularity = "3.8%" }
         },
         WAIST = {
-            { id = 245966, name = "Durable Information Securing Container", popularity = "77.6%" },
-            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "5.9%" },
-            { id = 237550, name = "BiSFresh Ethereal Fetters", popularity = "2.7%" },
-            { id = 246287, name = "Improvisational Girdle", popularity = "2.4%" },
-            { id = 222431, name = "Everforged Greatbelt", popularity = "2.3%" }
+            { id = 245966, name = "Durable Information Securing Container", popularity = "75.2%" },
+            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "6.1%" },
+            { id = 237550, name = "BiSFresh Ethereal Fetters", popularity = "3.0%" },
+            { id = 246287, name = "Improvisational Girdle", popularity = "2.8%" },
+            { id = 222431, name = "Everforged Greatbelt", popularity = "2.6%" }
         },
         LEGS = {
-            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "58.4%" },
-            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "14.8%" },
+            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "60.3%" },
+            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "12.5%" },
             { id = 178818, name = "Halkias's Towering Pillars", popularity = "5.6%" },
-            { id = 246278, name = "Overpressure Platelegs", popularity = "5.4%" },
+            { id = 246278, name = "Overpressure Platelegs", popularity = "5.2%" },
             { id = 185798, name = "Quantum Leapers", popularity = "3.6%" }
         },
         FEET = {
-            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "22.2%" },
-            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "11.5%" },
+            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "23.3%" },
+            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "11.6%" },
             { id = 221123, name = "Devoted Plate Walkers", popularity = "11.1%" },
-            { id = 222429, name = "Everforged Sabatons", popularity = "8.3%" },
-            { id = 237551, name = "Sterilized Expulsion Boots", popularity = "6.9%" }
+            { id = 222429, name = "Everforged Sabatons", popularity = "7.8%" },
+            { id = 237551, name = "Sterilized Expulsion Boots", popularity = "7.0%" }
         },
         FINGER1 = {
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "24.9%" },
-            { id = 185813, name = "Signet of Collapsing Stars", popularity = "21.9%" },
-            { id = 242491, name = "Whispers of K'aresh", popularity = "19.3%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "19.2%" },
-            { id = 178824, name = "Signet of the False Accuser", popularity = "13.5%" }
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "25.2%" },
+            { id = 185813, name = "Signet of Collapsing Stars", popularity = "22.8%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "19.8%" },
+            { id = 242491, name = "Whispers of K'aresh", popularity = "19.4%" },
+            { id = 178824, name = "Signet of the False Accuser", popularity = "13.6%" }
         },
         MAIN_HAND = {
-            { id = 222444, name = "Charged Hexsword", popularity = "60.9%" },
-            { id = 221150, name = "Arachnoid Soulcleaver", popularity = "5.8%" },
+            { id = 222444, name = "Charged Hexsword", popularity = "60.8%" },
+            { id = 221150, name = "Arachnoid Soulcleaver", popularity = "5.6%" },
             { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "5.2%" },
             { id = 221122, name = "Hand of Beledar", popularity = "4.5%" },
-            { id = 222445, name = "Charged Runeaxe", popularity = "3.7%" }
+            { id = 222445, name = "Charged Runeaxe", popularity = "3.6%" }
         },
         OFF_HAND = {
-            { id = 222432, name = "Everforged Defender", popularity = "40.1%" },
-            { id = 242493, name = "Starlit Safeguard", popularity = "13.1%" },
-            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "11.5%" },
-            { id = 185811, name = "Package Protector", popularity = "6.5%" },
-            { id = 221117, name = "Sanctified Priory Wall", popularity = "6.1%" }
+            { id = 222432, name = "Everforged Defender", popularity = "42.0%" },
+            { id = 242493, name = "Starlit Safeguard", popularity = "12.5%" },
+            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "11.2%" },
+            { id = 185811, name = "Package Protector", popularity = "6.2%" },
+            { id = 221117, name = "Sanctified Priory Wall", popularity = "5.8%" }
         },
         TRINKET1 = {
-            { id = 190958, name = "So'leah's Secret Technique", popularity = "29.7%" },
-            { id = 242393, name = "Loom'ithar's Living Silk", popularity = "19.5%" },
-            { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "18.6%" },
-            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "18.3%" },
-            { id = 219308, name = "Signet of the Priory", popularity = "14.2%" }
+            { id = 190958, name = "So'leah's Secret Technique", popularity = "30.8%" },
+            { id = 242393, name = "Loom'ithar's Living Silk", popularity = "20.4%" },
+            { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "18.7%" },
+            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "17.5%" },
+            { id = 219308, name = "Signet of the Priory", popularity = "13.8%" }
         },
         consumables = {
-            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "41.8%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "17.4%" },
-            { id = 212265, name = "Tempered Potion", popularity = "15.2%" },
-            { id = 222720, name = "The Sushi Special", popularity = "29.9%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "68.0%" }
+            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "40.3%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "16.9%" },
+            { id = 212265, name = "Tempered Potion", popularity = "14.6%" },
+            { id = 222720, name = "The Sushi Special", popularity = "29.6%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "66.8%" }
         }
     },
     PROTECTION = {
@@ -132,126 +132,126 @@ WishListData_Paladin = {
         talent = "CIEAAAAAAAAAAAAAAAAAAAAAAsZMYWGLzMjZmZZbmZGzsNmxAAAMAAAAAAA0WzMzihZGGD2aDAGDMAAbDAAAAYmZZbptZGLMYAYwMbYA",
         statprio = "Strength > Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "62.2%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "70.4%" },
+            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "62.3%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "70.2%" },
             CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "78.9%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "57.3%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "53.3%" },
-            RINGS = { id = 223674, name = "Radiant Haste", popularity = "45.7%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "57.2%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "53.5%" },
+            RINGS = { id = 223674, name = "Radiant Haste", popularity = "45.1%" },
             MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "43.2%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "45.8%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "19.1%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "45.5%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "19.0%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.2%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "45.8%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "19.1%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "45.5%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "19.0%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.2%" }
         },
         HEAD = {
-            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "58.2%" },
-            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "10.4%" },
-            { id = 246283, name = "BiSCrown of Absolute Command", popularity = "9.8%" },
-            { id = 178812, name = "Wing Commander's Helmet", popularity = "6.9%" },
-            { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "3.2%" }
+            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "60.5%" },
+            { id = 246283, name = "BiSCrown of Absolute Command", popularity = "9.9%" },
+            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "8.7%" },
+            { id = 178812, name = "Wing Commander's Helmet", popularity = "6.6%" },
+            { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "3.0%" }
         },
         NECK = {
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "25.4%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "26.7%" },
             { id = 178827, name = "Sin Stained Pendant", popularity = "23.3%" },
-            { id = 185820, name = "BiSCabochon of the Infinite Flight", popularity = "11.3%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "9.2%" },
-            { id = 221060, name = "Strapped Rescue-Keg", popularity = "5.3%" }
+            { id = 185820, name = "BiSCabochon of the Infinite Flight", popularity = "11.4%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "8.7%" },
+            { id = 221060, name = "Strapped Rescue-Keg", popularity = "4.7%" }
         },
         SHOULDERS = {
-            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "57.1%" },
-            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "13.2%" },
-            { id = 185803, name = "Stoneflesh Spaulders", popularity = "8.0%" },
-            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "7.4%" },
+            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "59.0%" },
+            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "10.8%" },
+            { id = 185803, name = "Stoneflesh Spaulders", popularity = "8.4%" },
+            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "7.3%" },
             { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "2.6%" }
         },
         BACK = {
-            { id = 235499, name = "BiSReshii Wraps", popularity = "96.9%" }
+            { id = 235499, name = "BiSReshii Wraps", popularity = "96.6%" }
         },
         CHEST = {
-            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "72.4%" },
-            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "10.9%" },
-            { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "4.1%" },
-            { id = 221161, name = "Experimental Goresilk Chestguard", popularity = "2.6%" },
-            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "2.4%" }
+            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "74.8%" },
+            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "9.0%" },
+            { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "3.8%" },
+            { id = 221161, name = "Experimental Goresilk Chestguard", popularity = "2.3%" },
+            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "2.1%" }
         },
         WRISTS = {
-            { id = 222435, name = "BiSEverforged Vambraces", popularity = "28.1%" },
+            { id = 222435, name = "BiSEverforged Vambraces", popularity = "28.9%" },
             { id = 221118, name = "Flameforged Armguard", popularity = "16.7%" },
             { id = 185815, name = "Vambraces of Verification", popularity = "12.4%" },
-            { id = 242475, name = "Eco-Dome Access Bands", popularity = "10.7%" },
-            { id = 237545, name = "Discarded Nutrient Shackles", popularity = "6.6%" }
+            { id = 242475, name = "Eco-Dome Access Bands", popularity = "10.5%" },
+            { id = 237545, name = "Discarded Nutrient Shackles", popularity = "6.7%" }
         },
         HANDS = {
-            { id = 237620, name = "BiSProtectors of the Lucent Battalion", popularity = "62.3%" },
-            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "12.0%" },
-            { id = 234504, name = "BiSJumpstarter's Scaffold-Scrapers", popularity = "7.5%" },
-            { id = 221151, name = "Devourer's Gauntlets", popularity = "5.0%" },
-            { id = 237526, name = "Breached Containment Guards", popularity = "2.1%" }
+            { id = 237620, name = "BiSProtectors of the Lucent Battalion", popularity = "64.9%" },
+            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "10.1%" },
+            { id = 234504, name = "BiSJumpstarter's Scaffold-Scrapers", popularity = "7.1%" },
+            { id = 221151, name = "Devourer's Gauntlets", popularity = "4.6%" },
+            { id = 237526, name = "Breached Containment Guards", popularity = "2.2%" }
         },
         WAIST = {
-            { id = 245966, name = "Durable Information Securing Container", popularity = "72.6%" },
-            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "7.3%" },
-            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "7.0%" },
-            { id = 221133, name = "Girdle of Somber Ploys", popularity = "3.7%" },
-            { id = 246287, name = "Improvisational Girdle", popularity = "1.5%" }
+            { id = 245966, name = "Durable Information Securing Container", popularity = "70.2%" },
+            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "7.8%" },
+            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "7.7%" },
+            { id = 221133, name = "Girdle of Somber Ploys", popularity = "4.0%" },
+            { id = 246287, name = "Improvisational Girdle", popularity = "1.7%" }
         },
         LEGS = {
-            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "63.5%" },
-            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "14.4%" },
-            { id = 246278, name = "Overpressure Platelegs", popularity = "6.4%" },
-            { id = 178818, name = "Halkias's Towering Pillars", popularity = "3.8%" },
+            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "66.1%" },
+            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "12.0%" },
+            { id = 246278, name = "Overpressure Platelegs", popularity = "6.1%" },
+            { id = 178818, name = "Halkias's Towering Pillars", popularity = "3.7%" },
             { id = 185798, name = "Quantum Leapers", popularity = "2.0%" }
         },
         FEET = {
-            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "20.1%" },
-            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "17.8%" },
-            { id = 221123, name = "Devoted Plate Walkers", popularity = "11.1%" },
-            { id = 222429, name = "Everforged Sabatons", popularity = "8.5%" },
-            { id = 211031, name = "Secret-Dredger's Sabatons", popularity = "6.9%" }
+            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "21.5%" },
+            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "18.0%" },
+            { id = 221123, name = "Devoted Plate Walkers", popularity = "10.9%" },
+            { id = 222429, name = "Everforged Sabatons", popularity = "7.8%" },
+            { id = 211031, name = "Secret-Dredger's Sabatons", popularity = "6.8%" }
         },
         FINGER1 = {
-            { id = 242491, name = "BiSWhispers of K'aresh", popularity = "31.6%" },
-            { id = 221136, name = "BiSDevout Zealot's Ring", popularity = "29.8%" },
-            { id = 178824, name = "Signet of the False Accuser", popularity = "22.1%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "21.8%" },
-            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "10.6%" }
+            { id = 242491, name = "BiSWhispers of K'aresh", popularity = "32.0%" },
+            { id = 221136, name = "BiSDevout Zealot's Ring", popularity = "31.3%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "22.8%" },
+            { id = 178824, name = "Signet of the False Accuser", popularity = "22.2%" },
+            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "10.2%" }
         },
         MAIN_HAND = {
-            { id = 222440, name = "Everforged Longsword", popularity = "47.1%" },
-            { id = 221145, name = "Shipwrecker's Bludgeon", popularity = "8.5%" },
+            { id = 222440, name = "Everforged Longsword", popularity = "48.0%" },
+            { id = 221145, name = "Shipwrecker's Bludgeon", popularity = "8.2%" },
             { id = 185824, name = "Blade of Grievous Harm", popularity = "7.8%" },
-            { id = 242470, name = "Mandibular Bonewhacker", popularity = "6.6%" },
-            { id = 237813, name = "Factory-Issue Plexhammer", popularity = "5.7%" }
+            { id = 242470, name = "Mandibular Bonewhacker", popularity = "6.4%" },
+            { id = 237813, name = "Factory-Issue Plexhammer", popularity = "5.8%" }
         },
         OFF_HAND = {
-            { id = 222432, name = "Everforged Defender", popularity = "51.0%" },
-            { id = 242493, name = "Starlit Safeguard", popularity = "13.0%" },
-            { id = 185811, name = "Package Protector", popularity = "7.1%" },
-            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "7.1%" },
-            { id = 221117, name = "Sanctified Priory Wall", popularity = "5.2%" }
+            { id = 222432, name = "Everforged Defender", popularity = "52.8%" },
+            { id = 242493, name = "Starlit Safeguard", popularity = "12.7%" },
+            { id = 185811, name = "Package Protector", popularity = "7.0%" },
+            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "6.9%" },
+            { id = 221117, name = "Sanctified Priory Wall", popularity = "5.0%" }
         },
         TRINKET1 = {
-            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "39.1%" },
-            { id = 219309, name = "Tome of Light's Devotion", popularity = "24.2%" },
-            { id = 242401, name = "Brand of Ceaseless Ire", popularity = "23.8%" },
-            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "22.2%" },
-            { id = 190958, name = "So'leah's Secret Technique", popularity = "16.4%" }
+            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "38.1%" },
+            { id = 242401, name = "Brand of Ceaseless Ire", popularity = "25.2%" },
+            { id = 219309, name = "Tome of Light's Devotion", popularity = "23.6%" },
+            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "21.7%" },
+            { id = 190958, name = "So'leah's Secret Technique", popularity = "17.0%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "30.5%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "19.5%" },
-            { id = 212265, name = "Tempered Potion", popularity = "39.6%" },
-            { id = 222720, name = "The Sushi Special", popularity = "33.1%" },
-            { id = nil, name = "Rite of Sanctification", popularity = "75.7%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "30.1%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "19.8%" },
+            { id = 212265, name = "Tempered Potion", popularity = "39.5%" },
+            { id = 222720, name = "The Sushi Special", popularity = "33.2%" },
+            { id = nil, name = "Rite of Sanctification", popularity = "77.1%" }
         }
     },
     RETRIBUTION = {
@@ -259,119 +259,119 @@ WishListData_Paladin = {
         talent = "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAYAgRmltZmtltZGbGz2mZbAAAAAAY2aaGGmZsNDmthxsNzy2YGMDDLLsBAAAzMtNLz2MAgNgBAMMMA",
         statprio = "Strength > Crit > Mastery > Haste > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "58.1%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "78.8%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "84.6%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "47.0%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "52.2%" },
-            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "47.6%" },
-            MAINHAND = { id = 223759, name = "Council's Guile", popularity = "34.1%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "57.9%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "78.3%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "84.2%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "46.8%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "51.6%" },
+            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "47.4%" },
+            MAINHAND = { id = 223759, name = "Council's Guile", popularity = "34.3%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "60.0%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "7.5%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "59.3%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "7.7%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "60.0%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "7.5%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "59.3%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "7.7%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
         HEAD = {
-            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "67.1%" },
-            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "13.5%" },
+            { id = 237619, name = "BiSLightmane of the Lucent Battalion", popularity = "68.3%" },
+            { id = 229244, name = "Aureate Sentry's Pledge", popularity = "12.3%" },
             { id = 246283, name = "Crown of Absolute Command", popularity = "3.7%" },
             { id = 178812, name = "Wing Commander's Helmet", popularity = "3.5%" },
             { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "2.2%" }
         },
         NECK = {
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "24.2%" },
-            { id = 178827, name = "Sin Stained Pendant", popularity = "16.3%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "15.1%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "24.9%" },
+            { id = 178827, name = "Sin Stained Pendant", popularity = "16.2%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "14.8%" },
             { id = 251880, name = "Momma's Mega Medallion", popularity = "8.3%" },
             { id = 237963, name = "Void-Scarred Brooch", popularity = "5.7%" }
         },
         SHOULDERS = {
-            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "49.0%" },
-            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "14.6%" },
-            { id = 185803, name = "Stoneflesh Spaulders", popularity = "8.6%" },
-            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "7.1%" },
+            { id = 237617, name = "BiSChargers of the Lucent Battalion", popularity = "49.6%" },
+            { id = 229242, name = "Aureate Sentry's Roaring Will", popularity = "13.2%" },
+            { id = 185803, name = "Stoneflesh Spaulders", popularity = "8.9%" },
+            { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "7.2%" },
             { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "3.5%" }
         },
         BACK = {
-            { id = 235499, name = "BiSReshii Wraps", popularity = "96.7%" }
+            { id = 235499, name = "BiSReshii Wraps", popularity = "96.4%" }
         },
         CHEST = {
-            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "72.5%" },
-            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "11.7%" },
-            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "4.1%" },
+            { id = 237622, name = "BiSCuirass of the Lucent Battalion", popularity = "73.6%" },
+            { id = 229247, name = "Aureate Sentry's Encasement", popularity = "10.6%" },
+            { id = 234506, name = "Muckdiver's Wading Plate", popularity = "4.0%" },
             { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "2.0%" },
             { id = 221161, name = "Experimental Goresilk Chestguard", popularity = "1.4%" }
         },
         WRISTS = {
-            { id = 222435, name = "BiSEverforged Vambraces", popularity = "48.3%" },
+            { id = 222435, name = "BiSEverforged Vambraces", popularity = "48.2%" },
             { id = 221118, name = "Flameforged Armguard", popularity = "11.4%" },
-            { id = 185815, name = "Vambraces of Verification", popularity = "8.6%" },
-            { id = 242475, name = "Eco-Dome Access Bands", popularity = "6.3%" },
+            { id = 185815, name = "Vambraces of Verification", popularity = "8.7%" },
+            { id = 242475, name = "Eco-Dome Access Bands", popularity = "6.2%" },
             { id = 237545, name = "Discarded Nutrient Shackles", popularity = "5.3%" }
         },
         HANDS = {
-            { id = 237620, name = "BiSProtectors of the Lucent Battalion", popularity = "68.1%" },
-            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "8.4%" },
-            { id = 234504, name = "Jumpstarter's Scaffold-Scrapers", popularity = "5.8%" },
-            { id = 221151, name = "Devourer's Gauntlets", popularity = "2.8%" },
-            { id = 237991, name = "Void-Scarred Captain's Handguards", popularity = "2.5%" }
+            { id = 237620, name = "BiSProtectors of the Lucent Battalion", popularity = "69.1%" },
+            { id = 229245, name = "Aureate Sentry's Gauntlets", popularity = "7.7%" },
+            { id = 234504, name = "Jumpstarter's Scaffold-Scrapers", popularity = "5.6%" },
+            { id = 221151, name = "Devourer's Gauntlets", popularity = "2.7%" },
+            { id = 237991, name = "Void-Scarred Captain's Handguards", popularity = "2.4%" }
         },
         WAIST = {
-            { id = 245966, name = "Durable Information Securing Container", popularity = "72.3%" },
-            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "13.5%" },
-            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "3.6%" },
-            { id = 221133, name = "Girdle of Somber Ploys", popularity = "2.2%" },
-            { id = 237550, name = "Fresh Ethereal Fetters", popularity = "1.4%" }
+            { id = 245966, name = "Durable Information Securing Container", popularity = "71.1%" },
+            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "14.0%" },
+            { id = 234505, name = "Venture Contractor's Floodlight", popularity = "3.8%" },
+            { id = 221133, name = "Girdle of Somber Ploys", popularity = "2.3%" },
+            { id = 237550, name = "Fresh Ethereal Fetters", popularity = "1.5%" }
         },
         LEGS = {
-            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "71.3%" },
-            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "13.6%" },
-            { id = 246278, name = "Overpressure Platelegs", popularity = "3.7%" },
+            { id = 237618, name = "BiSCuisses of the Lucent Battalion", popularity = "72.4%" },
+            { id = 229243, name = "Aureate Sentry's Legguards", popularity = "12.4%" },
+            { id = 246278, name = "Overpressure Platelegs", popularity = "3.5%" },
             { id = 237993, name = "Void-Scarred Captain's Greaves", popularity = "1.9%" },
             { id = 178818, name = "Halkias's Towering Pillars", popularity = "1.4%" }
         },
         FEET = {
-            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "25.7%" },
-            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "14.2%" },
-            { id = 222429, name = "Everforged Sabatons", popularity = "10.4%" },
-            { id = 237551, name = "Sterilized Expulsion Boots", popularity = "8.5%" },
+            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "26.2%" },
+            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "14.3%" },
+            { id = 222429, name = "Everforged Sabatons", popularity = "10.0%" },
+            { id = 237551, name = "Sterilized Expulsion Boots", popularity = "8.6%" },
             { id = 221123, name = "Devoted Plate Walkers", popularity = "7.6%" }
         },
         FINGER1 = {
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "30.2%" },
-            { id = 178824, name = "Signet of the False Accuser", popularity = "27.6%" },
-            { id = 231265, name = "The Jastor Diamond", popularity = "19.0%" },
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "30.7%" },
+            { id = 178824, name = "Signet of the False Accuser", popularity = "28.3%" },
             { id = 242491, name = "Whispers of K'aresh", popularity = "18.7%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "11.3%" }
+            { id = 231265, name = "The Jastor Diamond", popularity = "17.9%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "11.4%" }
         },
         MAIN_HAND = {
-            { id = 222443, name = "Everforged Greataxe", popularity = "28.6%" },
-            { id = 222447, name = "Charged Claymore", popularity = "19.0%" },
-            { id = 242487, name = "Fatebound Crusader", popularity = "12.9%" },
-            { id = 234490, name = "Circuit Breaker", popularity = "8.5%" },
+            { id = 222443, name = "Everforged Greataxe", popularity = "29.0%" },
+            { id = 222447, name = "Charged Claymore", popularity = "19.3%" },
+            { id = 242487, name = "Fatebound Crusader", popularity = "12.7%" },
+            { id = 234490, name = "Circuit Breaker", popularity = "8.4%" },
             { id = 185810, name = "Skyreaver, Greataxe of the Keepers", popularity = "5.6%" }
         },
         TRINKET1 = {
-            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "58.7%" },
-            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "26.8%" },
-            { id = 219308, name = "Signet of the Priory", popularity = "26.5%" },
-            { id = 246344, name = "Cursed Stone Idol", popularity = "15.6%" },
-            { id = 242395, name = "BiSAstral Antenna", popularity = "11.5%" }
+            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "57.9%" },
+            { id = 219308, name = "Signet of the Priory", popularity = "26.4%" },
+            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "26.4%" },
+            { id = 246344, name = "Cursed Stone Idol", popularity = "16.1%" },
+            { id = 242395, name = "BiSAstral Antenna", popularity = "12.0%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "48.6%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "21.9%" },
-            { id = 212265, name = "Tempered Potion", popularity = "65.7%" },
-            { id = 222720, name = "The Sushi Special", popularity = "21.7%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "77.4%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "47.8%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "22.1%" },
+            { id = 212265, name = "Tempered Potion", popularity = "64.9%" },
+            { id = 222720, name = "The Sushi Special", popularity = "21.8%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "76.8%" }
         }
     }
 }
