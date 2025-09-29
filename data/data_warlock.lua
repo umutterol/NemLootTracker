@@ -5,124 +5,124 @@ WishListData_Warlock = {
         talent = "CkQAAAAAAAAAAAAAAAAAAAAAAgZmZmZmZEzmhxsZmZY2GAAAwMjZWmZMWmZmZxMmZAAzDYBGYWMaMDgZDsMDAAAAAAAAmhFA",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "57.8%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "83.1%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "85.3%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "59.3%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "51.6%" },
-            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "37.1%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "47.3%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "57.9%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "83.8%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "85.9%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "59.7%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "52.2%" },
+            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "37.7%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "47.1%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "65.9%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "66.5%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "6.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "65.9%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "66.5%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "6.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         HEAD = {
-            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "81.4%" },
-            { id = 229325, name = "Spliced Fiendtrader's Transcendence", popularity = "2.8%" },
-            { id = 242477, name = "Wasteland Devotee's Wrappings", popularity = "2.6%" },
-            { id = 221131, name = "Elysian Flame Crown", popularity = "2.3%" },
-            { id = 185795, name = "Cowl of Branching Fate", popularity = "1.7%" }
+            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "81.7%" },
+            { id = 242477, name = "Wasteland Devotee's Wrappings", popularity = "2.7%" },
+            { id = 229325, name = "Spliced Fiendtrader's Transcendence", popularity = "2.5%" },
+            { id = 221131, name = "Elysian Flame Crown", popularity = "2.2%" },
+            { id = 185795, name = "Cowl of Branching Fate", popularity = "1.6%" }
         },
         NECK = {
-            { id = 178827, name = "Sin Stained Pendant", popularity = "22.4%" },
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "19.7%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "12.3%" },
-            { id = 251880, name = "Momma's Mega Medallion", popularity = "9.9%" },
+            { id = 178827, name = "Sin Stained Pendant", popularity = "21.9%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "19.6%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "13.1%" },
+            { id = 251880, name = "Momma's Mega Medallion", popularity = "9.8%" },
             { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "6.0%" }
         },
         SHOULDERS = {
-            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "82.5%" },
-            { id = 229323, name = "Spliced Fiendtrader's Loyal Servants", popularity = "3.0%" },
-            { id = 246276, name = "Sinlight Shoulderpads", popularity = "2.8%" },
-            { id = 237547, name = "Mounted Manacannons", popularity = "1.8%" },
-            { id = 185804, name = "Harmonious Spaulders", popularity = "1.8%" }
+            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "82.9%" },
+            { id = 246276, name = "Sinlight Shoulderpads", popularity = "3.1%" },
+            { id = 229323, name = "Spliced Fiendtrader's Loyal Servants", popularity = "2.8%" },
+            { id = 185804, name = "Harmonious Spaulders", popularity = "1.8%" },
+            { id = 237547, name = "Mounted Manacannons", popularity = "1.7%" }
         },
         BACK = {
             { id = 235499, name = "BiSReshii Wraps", popularity = "96.5%" }
         },
         CHEST = {
-            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "85.4%" },
-            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "2.4%" },
-            { id = 234496, name = "Saboteur's Rubber Jacket", popularity = "2.3%" },
-            { id = 237527, name = "Frock of Spirit's Reunion", popularity = "2.0%" },
+            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "85.8%" },
+            { id = 234496, name = "Saboteur's Rubber Jacket", popularity = "2.2%" },
+            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "2.2%" },
+            { id = 237527, name = "Frock of Spirit's Reunion", popularity = "1.9%" },
             { id = 221126, name = "Zealous Warden's Raiment", popularity = "1.0%" }
         },
         WRISTS = {
-            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "70.1%" },
-            { id = 246279, name = "Fizzlefuse Cuffs", popularity = "5.8%" },
-            { id = 185814, name = "Auctioneer's Counting Bracers", popularity = "4.2%" },
-            { id = 242468, name = "Al'dani Attendant's Gauze", popularity = "3.5%" },
+            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "70.4%" },
+            { id = 246279, name = "Fizzlefuse Cuffs", popularity = "5.6%" },
+            { id = 185814, name = "Auctioneer's Counting Bracers", popularity = "4.3%" },
+            { id = 242468, name = "Al'dani Attendant's Gauze", popularity = "3.2%" },
             { id = 237558, name = "Conjoined Glass Bracers", popularity = "3.1%" }
         },
         HANDS = {
-            { id = 237701, name = "BiSInquisitor's Clutches of Madness", popularity = "58.5%" },
-            { id = 242490, name = "Ancient Oracle's Caress", popularity = "8.5%" },
-            { id = 237549, name = "Bloodwrath's Gnarled Claws", popularity = "6.1%" },
+            { id = 237701, name = "BiSInquisitor's Clutches of Madness", popularity = "58.7%" },
+            { id = 242490, name = "Ancient Oracle's Caress", popularity = "8.4%" },
             { id = 178833, name = "Stonefiend Shaper's Mitts", popularity = "6.0%" },
-            { id = 222822, name = "Consecrated Gloves", popularity = "5.0%" }
+            { id = 237549, name = "Bloodwrath's Gnarled Claws", popularity = "6.0%" },
+            { id = 185793, name = "Cyphered Gloves", popularity = "5.1%" }
         },
         WAIST = {
-            { id = 242664, name = "Durable Information Securing Container", popularity = "73.1%" },
-            { id = 222816, name = "Consecrated Cord", popularity = "7.8%" },
-            { id = 221158, name = "Burrower's Cinch", popularity = "4.5%" },
-            { id = 221121, name = "Honorbound Retainer's Sash", popularity = "3.9%" },
+            { id = 242664, name = "Durable Information Securing Container", popularity = "72.3%" },
+            { id = 222816, name = "Consecrated Cord", popularity = "8.3%" },
+            { id = 221158, name = "Burrower's Cinch", popularity = "4.4%" },
+            { id = 221121, name = "Honorbound Retainer's Sash", popularity = "4.1%" },
             { id = 237538, name = "BiSForgeweaver's Journal Holster", popularity = "2.3%" }
         },
         LEGS = {
-            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "83.4%" },
-            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "2.5%" },
-            { id = 234495, name = "Razorchoke Slacks", popularity = "2.4%" },
-            { id = 185799, name = "Hyperlight Leggings", popularity = "1.8%" },
-            { id = 221164, name = "Archaic Venomancer's Legwraps", popularity = "1.8%" }
+            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "83.9%" },
+            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "2.4%" },
+            { id = 234495, name = "Razorchoke Slacks", popularity = "2.3%" },
+            { id = 221164, name = "Archaic Venomancer's Legwraps", popularity = "1.7%" },
+            { id = 185799, name = "Hyperlight Leggings", popularity = "1.7%" }
         },
         FEET = {
-            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "47.6%" },
-            { id = 221149, name = "Membranous Slippers", popularity = "10.6%" },
-            { id = 178831, name = "Slippers of Leavened Station", popularity = "8.6%" },
-            { id = 237524, name = "Laced Lair-Steppers", popularity = "7.3%" },
-            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "4.8%" }
+            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "48.5%" },
+            { id = 221149, name = "Membranous Slippers", popularity = "10.7%" },
+            { id = 178831, name = "Slippers of Leavened Station", popularity = "8.2%" },
+            { id = 237524, name = "Laced Lair-Steppers", popularity = "7.2%" },
+            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "4.6%" }
         },
         FINGER1 = {
-            { id = 242491, name = "Whispers of K'aresh", popularity = "26.8%" },
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "26.7%" },
-            { id = 178824, name = "Signet of the False Accuser", popularity = "25.1%" },
+            { id = 242491, name = "Whispers of K'aresh", popularity = "27.0%" },
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "26.9%" },
+            { id = 178824, name = "Signet of the False Accuser", popularity = "25.3%" },
             { id = 237567, name = "BiSLogic Gate: Alpha", popularity = "18.1%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "15.4%" }
+            { id = 246281, name = "Ring of the Panoply", popularity = "15.5%" }
         },
         MAIN_HAND = {
-            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "24.0%" },
-            { id = 237728, name = "Voidglass Kris", popularity = "11.8%" },
-            { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "8.4%" },
+            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "24.1%" },
+            { id = 237728, name = "Voidglass Kris", popularity = "11.6%" },
+            { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "8.2%" },
             { id = 221165, name = "Unceremonious Bloodletter", popularity = "6.4%" },
-            { id = 222444, name = "Charged Hexsword", popularity = "5.9%" }
+            { id = 222444, name = "Charged Hexsword", popularity = "6.1%" }
         },
         OFF_HAND = {
-            { id = 222566, name = "BiSVagabond's Torch", popularity = "53.5%" },
-            { id = 246284, name = "Nathrian Reliquary", popularity = "1.4%" },
+            { id = 222566, name = "BiSVagabond's Torch", popularity = "53.6%" },
+            { id = 246284, name = "Nathrian Reliquary", popularity = "1.3%" },
             { id = 221132, name = "Overflowing Umbral Pail", popularity = "1.0%" },
             { id = 237724, name = "Iris of the Dark Beyond", popularity = "1.0%" },
-            { id = 237742, name = "Fractillus' Last Breath", popularity = "0.9%" }
+            { id = 237742, name = "Fractillus' Last Breath", popularity = "0.8%" }
         },
         TRINKET1 = {
-            { id = 242497, name = "Azhiccaran Parapodia", popularity = "43.2%" },
-            { id = 242402, name = "BiSAraz's Ritual Forge", popularity = "30.5%" },
-            { id = 242395, name = "BiSAstral Antenna", popularity = "23.6%" },
-            { id = 219308, name = "Signet of the Priory", popularity = "23.1%" },
-            { id = 242494, name = "Lily of the Eternal Weave", popularity = "14.0%" }
+            { id = 242497, name = "Azhiccaran Parapodia", popularity = "44.0%" },
+            { id = 242402, name = "BiSAraz's Ritual Forge", popularity = "31.4%" },
+            { id = 242395, name = "BiSAstral Antenna", popularity = "24.0%" },
+            { id = 219308, name = "Signet of the Priory", popularity = "22.6%" },
+            { id = 242494, name = "Lily of the Eternal Weave", popularity = "13.8%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "59.4%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "28.4%" },
-            { id = 212265, name = "Tempered Potion", popularity = "62.5%" },
-            { id = 222720, name = "The Sushi Special", popularity = "25.7%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "80.9%" }
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "59.5%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "28.7%" },
+            { id = 212265, name = "Tempered Potion", popularity = "62.9%" },
+            { id = 222720, name = "The Sushi Special", popularity = "25.8%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "81.3%" }
         }
     },
     DEMONOLOGY = {
@@ -130,103 +130,103 @@ WishListData_Warlock = {
         talent = "CoQAAAAAAAAAAAAAAAAAAAAAAAmZmZmZEzmhxsZmZY2GAAAAAAAAAAzAGzYYBGYZYhGWYmxM2GzsNjZmZMmxwMzMzMwMAAA",
         statprio = "Crit > Haste > Mastery > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "60.8%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "84.3%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "87.4%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "60.3%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "55.9%" },
-            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "40.8%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "50.9%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "61.1%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "84.6%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "87.6%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "60.4%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "56.1%" },
+            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "41.0%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "50.7%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "62.5%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "62.7%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "8.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "62.5%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "62.7%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "8.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         HEAD = {
-            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "82.3%" },
+            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "82.6%" },
             { id = 242477, name = "Wasteland Devotee's Wrappings", popularity = "3.1%" },
             { id = 185795, name = "Cowl of Branching Fate", popularity = "2.6%" },
-            { id = 229325, name = "Spliced Fiendtrader's Transcendence", popularity = "1.8%" },
-            { id = 221131, name = "Elysian Flame Crown", popularity = "1.7%" }
+            { id = 221131, name = "Elysian Flame Crown", popularity = "1.7%" },
+            { id = 229325, name = "Spliced Fiendtrader's Transcendence", popularity = "1.6%" }
         },
         NECK = {
             { id = 252009, name = "Bloodstained Memento", popularity = "22.9%" },
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "19.0%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "10.3%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "19.1%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "10.7%" },
             { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "9.1%" },
-            { id = 178827, name = "Sin Stained Pendant", popularity = "8.1%" }
+            { id = 178827, name = "Sin Stained Pendant", popularity = "8.0%" }
         },
         SHOULDERS = {
-            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "85.2%" },
-            { id = 229323, name = "Spliced Fiendtrader's Loyal Servants", popularity = "2.2%" },
-            { id = 221135, name = "Fanatic's Blackened Shoulderwraps", popularity = "1.5%" },
-            { id = 237547, name = "Mounted Manacannons", popularity = "1.5%" },
-            { id = 185804, name = "Harmonious Spaulders", popularity = "1.4%" }
+            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "85.4%" },
+            { id = 229323, name = "Spliced Fiendtrader's Loyal Servants", popularity = "2.0%" },
+            { id = 221135, name = "Fanatic's Blackened Shoulderwraps", popularity = "1.6%" },
+            { id = 185804, name = "Harmonious Spaulders", popularity = "1.4%" },
+            { id = 237547, name = "Mounted Manacannons", popularity = "1.4%" }
         },
         BACK = {
             { id = 235499, name = "BiSReshii Wraps", popularity = "96.6%" }
         },
         CHEST = {
-            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "80.2%" },
-            { id = 221126, name = "Zealous Warden's Raiment", popularity = "3.8%" },
-            { id = 234496, name = "Saboteur's Rubber Jacket", popularity = "3.1%" },
-            { id = 237527, name = "Frock of Spirit's Reunion", popularity = "2.6%" },
-            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "2.2%" }
+            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "80.6%" },
+            { id = 221126, name = "Zealous Warden's Raiment", popularity = "3.7%" },
+            { id = 234496, name = "Saboteur's Rubber Jacket", popularity = "3.0%" },
+            { id = 237527, name = "Frock of Spirit's Reunion", popularity = "2.5%" },
+            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "2.1%" }
         },
         WRISTS = {
-            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "69.4%" },
+            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "70.0%" },
             { id = 246279, name = "Fizzlefuse Cuffs", popularity = "4.7%" },
-            { id = 242468, name = "Al'dani Attendant's Gauze", popularity = "4.6%" },
+            { id = 242468, name = "Al'dani Attendant's Gauze", popularity = "4.5%" },
             { id = 185814, name = "Auctioneer's Counting Bracers", popularity = "4.3%" },
             { id = 237534, name = "Singed Sievecuffs", popularity = "4.0%" }
         },
         HANDS = {
-            { id = 237701, name = "Inquisitor's Clutches of Madness", popularity = "62.9%" },
+            { id = 237701, name = "Inquisitor's Clutches of Madness", popularity = "63.0%" },
             { id = 178833, name = "Stonefiend Shaper's Mitts", popularity = "6.3%" },
             { id = 237549, name = "BiSBloodwrath's Gnarled Claws", popularity = "5.1%" },
             { id = 242490, name = "Ancient Oracle's Caress", popularity = "5.0%" },
-            { id = 185793, name = "Cyphered Gloves", popularity = "3.9%" }
+            { id = 222822, name = "Consecrated Gloves", popularity = "4.1%" }
         },
         WAIST = {
-            { id = 242664, name = "Durable Information Securing Container", popularity = "68.9%" },
-            { id = 222816, name = "Consecrated Cord", popularity = "10.8%" },
-            { id = 221158, name = "Burrower's Cinch", popularity = "4.7%" },
+            { id = 242664, name = "Durable Information Securing Container", popularity = "68.3%" },
+            { id = 222816, name = "Consecrated Cord", popularity = "11.2%" },
+            { id = 221158, name = "Burrower's Cinch", popularity = "4.8%" },
             { id = 221121, name = "Honorbound Retainer's Sash", popularity = "3.9%" },
-            { id = 178822, name = "Cord of the Dark Word", popularity = "2.8%" }
+            { id = 178822, name = "Cord of the Dark Word", popularity = "2.9%" }
         },
         LEGS = {
-            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "82.9%" },
+            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "83.2%" },
             { id = 234495, name = "Razorchoke Slacks", popularity = "2.4%" },
-            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "2.3%" },
             { id = 221164, name = "Archaic Venomancer's Legwraps", popularity = "2.2%" },
+            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "2.1%" },
             { id = 185799, name = "Hyperlight Leggings", popularity = "1.7%" }
         },
         FEET = {
-            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "47.1%" },
+            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "47.6%" },
             { id = 221149, name = "Membranous Slippers", popularity = "8.7%" },
-            { id = 178831, name = "Slippers of Leavened Station", popularity = "7.6%" },
-            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "7.6%" },
+            { id = 178831, name = "Slippers of Leavened Station", popularity = "7.5%" },
+            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "7.5%" },
             { id = 237524, name = "Laced Lair-Steppers", popularity = "5.7%" }
         },
         FINGER1 = {
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "33.7%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "18.6%" },
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "33.9%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "18.8%" },
+            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "17.6%" },
             { id = 242491, name = "Whispers of K'aresh", popularity = "17.1%" },
-            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "16.9%" },
-            { id = 237567, name = "BiSLogic Gate: Alpha", popularity = "14.9%" }
+            { id = 237567, name = "BiSLogic Gate: Alpha", popularity = "15.2%" }
         },
         MAIN_HAND = {
-            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "30.3%" },
-            { id = 237728, name = "Voidglass Kris", popularity = "9.3%" },
-            { id = 222444, name = "Charged Hexsword", popularity = "8.3%" },
+            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "30.2%" },
+            { id = 237728, name = "Voidglass Kris", popularity = "9.4%" },
+            { id = 222444, name = "Charged Hexsword", popularity = "8.4%" },
             { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "6.0%" },
-            { id = 237730, name = "Voidglass Spire", popularity = "5.1%" }
+            { id = 237730, name = "Voidglass Spire", popularity = "5.3%" }
         },
         OFF_HAND = {
             { id = 222566, name = "BiSVagabond's Torch", popularity = "45.4%" },
@@ -236,17 +236,17 @@ WishListData_Warlock = {
             { id = 237724, name = "Iris of the Dark Beyond", popularity = "1.0%" }
         },
         TRINKET1 = {
-            { id = 242497, name = "Azhiccaran Parapodia", popularity = "50.4%" },
-            { id = 242395, name = "BiSAstral Antenna", popularity = "31.4%" },
-            { id = 219308, name = "Signet of the Priory", popularity = "25.9%" },
-            { id = 242494, name = "Lily of the Eternal Weave", popularity = "18.1%" },
-            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "12.1%" }
+            { id = 242497, name = "Azhiccaran Parapodia", popularity = "50.9%" },
+            { id = 242395, name = "BiSAstral Antenna", popularity = "32.3%" },
+            { id = 219308, name = "Signet of the Priory", popularity = "25.7%" },
+            { id = 242494, name = "Lily of the Eternal Weave", popularity = "17.9%" },
+            { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "12.2%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "55.8%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "32.6%" },
-            { id = 212265, name = "Tempered Potion", popularity = "58.8%" },
-            { id = 222720, name = "The Sushi Special", popularity = "27.0%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "56.2%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "32.8%" },
+            { id = 212265, name = "Tempered Potion", popularity = "59.1%" },
+            { id = 222720, name = "The Sushi Special", popularity = "26.8%" },
             { id = 224107, name = "Algari Mana Oil", popularity = "80.4%" }
         }
     },
@@ -255,40 +255,40 @@ WishListData_Warlock = {
         talent = "CsQAAAAAAAAAAAAAAAAAAAAAAAmZmZmZEzmhxsZmZYWmNjxMzsYGzyyMzAAAAAYmtlZmlZsADMLGNmBwshNMAAAAAAAmxYGAA",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "62.7%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "82.3%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "85.9%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "60.2%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "62.8%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "82.5%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "86.0%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "60.3%" },
             WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "57.5%" },
             RINGS = { id = 223674, name = "Radiant Haste", popularity = "38.2%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "36.0%" }
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "35.6%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "66.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "66.2%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "6.7%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "66.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "66.2%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "6.7%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         HEAD = {
-            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "82.2%" },
-            { id = 242477, name = "Wasteland Devotee's Wrappings", popularity = "3.0%" },
-            { id = 221131, name = "Elysian Flame Crown", popularity = "2.1%" },
+            { id = 237700, name = "BiSInquisitor's Portal to Madness", popularity = "82.5%" },
+            { id = 242477, name = "Wasteland Devotee's Wrappings", popularity = "2.9%" },
+            { id = 221131, name = "Elysian Flame Crown", popularity = "2.0%" },
             { id = 237548, name = "Twilight Tyrant's Veil", popularity = "1.7%" },
             { id = 185795, name = "Cowl of Branching Fate", popularity = "1.6%" }
         },
         NECK = {
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "25.6%" },
-            { id = 178827, name = "Sin Stained Pendant", popularity = "14.5%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "12.0%" },
-            { id = 251880, name = "Momma's Mega Medallion", popularity = "7.9%" },
-            { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "7.6%" }
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "25.7%" },
+            { id = 178827, name = "Sin Stained Pendant", popularity = "14.4%" },
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "12.5%" },
+            { id = 251880, name = "Momma's Mega Medallion", popularity = "7.7%" },
+            { id = 185820, name = "Cabochon of the Infinite Flight", popularity = "7.5%" }
         },
         SHOULDERS = {
-            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "84.3%" },
+            { id = 237698, name = "BiSInquisitor's Gaze of Madness", popularity = "84.5%" },
             { id = 229323, name = "Spliced Fiendtrader's Loyal Servants", popularity = "1.7%" },
             { id = 185804, name = "Harmonious Spaulders", popularity = "1.7%" },
             { id = 237547, name = "Mounted Manacannons", popularity = "1.6%" },
@@ -298,80 +298,80 @@ WishListData_Warlock = {
             { id = 235499, name = "BiSReshii Wraps", popularity = "96.8%" }
         },
         CHEST = {
-            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "83.6%" },
+            { id = 237703, name = "BiSInquisitor's Robes of Madness", popularity = "83.8%" },
             { id = 237527, name = "Frock of Spirit's Reunion", popularity = "3.0%" },
             { id = 234496, name = "Saboteur's Rubber Jacket", popularity = "2.4%" },
-            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "1.6%" },
+            { id = 229328, name = "Spliced Fiendtrader's Surgical Gown", popularity = "1.5%" },
             { id = 221126, name = "Zealous Warden's Raiment", popularity = "1.3%" }
         },
         WRISTS = {
-            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "71.0%" },
-            { id = 246279, name = "Fizzlefuse Cuffs", popularity = "4.6%" },
+            { id = 222815, name = "BiSConsecrated Cuffs", popularity = "71.2%" },
+            { id = 246279, name = "Fizzlefuse Cuffs", popularity = "4.5%" },
             { id = 185814, name = "Auctioneer's Counting Bracers", popularity = "4.4%" },
             { id = 237534, name = "Singed Sievecuffs", popularity = "3.6%" },
             { id = 237558, name = "Conjoined Glass Bracers", popularity = "3.3%" }
         },
         HANDS = {
-            { id = 237701, name = "BiSInquisitor's Clutches of Madness", popularity = "59.7%" },
+            { id = 237701, name = "BiSInquisitor's Clutches of Madness", popularity = "59.8%" },
             { id = 237549, name = "Bloodwrath's Gnarled Claws", popularity = "6.5%" },
-            { id = 178833, name = "Stonefiend Shaper's Mitts", popularity = "6.3%" },
-            { id = 242490, name = "Ancient Oracle's Caress", popularity = "6.2%" },
-            { id = 185793, name = "Cyphered Gloves", popularity = "5.5%" }
+            { id = 178833, name = "Stonefiend Shaper's Mitts", popularity = "6.2%" },
+            { id = 242490, name = "Ancient Oracle's Caress", popularity = "6.1%" },
+            { id = 185793, name = "Cyphered Gloves", popularity = "5.6%" }
         },
         WAIST = {
-            { id = 242664, name = "Durable Information Securing Container", popularity = "69.0%" },
-            { id = 222816, name = "Consecrated Cord", popularity = "11.3%" },
+            { id = 242664, name = "Durable Information Securing Container", popularity = "68.2%" },
+            { id = 222816, name = "Consecrated Cord", popularity = "11.8%" },
             { id = 221158, name = "Burrower's Cinch", popularity = "4.5%" },
-            { id = 221121, name = "Honorbound Retainer's Sash", popularity = "3.9%" },
+            { id = 221121, name = "Honorbound Retainer's Sash", popularity = "4.0%" },
             { id = 237538, name = "BiSForgeweaver's Journal Holster", popularity = "2.4%" }
         },
         LEGS = {
-            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "81.9%" },
+            { id = 237699, name = "BiSInquisitor's Leggings of Madness", popularity = "82.0%" },
             { id = 234495, name = "Razorchoke Slacks", popularity = "2.8%" },
             { id = 221164, name = "Archaic Venomancer's Legwraps", popularity = "2.6%" },
             { id = 185799, name = "Hyperlight Leggings", popularity = "1.9%" },
-            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "1.8%" }
+            { id = 229324, name = "Spliced Fiendtrader's Skin Tights", popularity = "1.7%" }
         },
         FEET = {
-            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "50.5%" },
-            { id = 221149, name = "Membranous Slippers", popularity = "9.5%" },
-            { id = 178831, name = "Slippers of Leavened Station", popularity = "7.1%" },
+            { id = 243305, name = "BiSInterloper's Silken Striders", popularity = "51.2%" },
+            { id = 221149, name = "Membranous Slippers", popularity = "9.2%" },
+            { id = 178831, name = "Slippers of Leavened Station", popularity = "7.0%" },
             { id = 237524, name = "Laced Lair-Steppers", popularity = "6.3%" },
-            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "5.0%" }
+            { id = 234497, name = "Nonconductive Kill-o-Socks", popularity = "4.7%" }
         },
         FINGER1 = {
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "30.4%" },
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "30.2%" },
             { id = 242491, name = "Whispers of K'aresh", popularity = "24.9%" },
             { id = 178824, name = "Signet of the False Accuser", popularity = "20.0%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "17.8%" },
-            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "17.4%" }
+            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "18.2%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "17.7%" }
         },
         MAIN_HAND = {
-            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "29.3%" },
-            { id = 237728, name = "Voidglass Kris", popularity = "11.4%" },
-            { id = 222444, name = "Charged Hexsword", popularity = "7.3%" },
-            { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "7.0%" },
-            { id = 237730, name = "Voidglass Spire", popularity = "6.6%" }
+            { id = 222568, name = "Vagabond's Bounding Baton", popularity = "29.2%" },
+            { id = 237728, name = "Voidglass Kris", popularity = "11.5%" },
+            { id = 222444, name = "Charged Hexsword", popularity = "7.2%" },
+            { id = 237730, name = "Voidglass Spire", popularity = "7.0%" },
+            { id = 237735, name = "BiSVoidglass Sovereign's Blade", popularity = "7.0%" }
         },
         OFF_HAND = {
-            { id = 222566, name = "BiSVagabond's Torch", popularity = "45.8%" },
+            { id = 222566, name = "BiSVagabond's Torch", popularity = "45.6%" },
             { id = 237724, name = "Iris of the Dark Beyond", popularity = "1.5%" },
             { id = 246284, name = "Nathrian Reliquary", popularity = "1.4%" },
             { id = 185812, name = "Acoustically Alluring Censer", popularity = "1.1%" },
-            { id = 221132, name = "Overflowing Umbral Pail", popularity = "0.9%" }
+            { id = 237742, name = "Fractillus' Last Breath", popularity = "1.0%" }
         },
         TRINKET1 = {
-            { id = 242497, name = "Azhiccaran Parapodia", popularity = "52.9%" },
-            { id = 242395, name = "Astral Antenna", popularity = "31.2%" },
-            { id = 219308, name = "Signet of the Priory", popularity = "19.5%" },
-            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "15.6%" },
-            { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "15.1%" }
+            { id = 242497, name = "Azhiccaran Parapodia", popularity = "53.1%" },
+            { id = 242395, name = "Astral Antenna", popularity = "31.8%" },
+            { id = 219308, name = "Signet of the Priory", popularity = "19.2%" },
+            { id = 219314, name = "Ara-Kara Sacbrood", popularity = "15.4%" },
+            { id = 219312, name = "Empowering Crystal of Anub'ikkaj", popularity = "14.9%" }
         },
         consumables = {
             { id = 212283, name = "Flask of Alchemical Chaos", popularity = "61.8%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "33.2%" },
-            { id = 212265, name = "Tempered Potion", popularity = "59.4%" },
-            { id = 222720, name = "The Sushi Special", popularity = "29.1%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "33.3%" },
+            { id = 212265, name = "Tempered Potion", popularity = "59.5%" },
+            { id = 222720, name = "The Sushi Special", popularity = "28.9%" },
             { id = 224107, name = "Algari Mana Oil", popularity = "80.8%" }
         }
     }
