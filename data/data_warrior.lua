@@ -24,98 +24,98 @@ WishListData_Warrior = {
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         HEAD = {
-            { id = 237610, name = "BiSLiving Weapon's Faceshield", popularity = "84.7%" },
-            { id = 246283, name = "Crown of Absolute Command", popularity = "3.1%" },
+            { id = 237610, name = "BiSLiving Weapon's Faceshield", popularity = "84.9%" },
+            { id = 246283, name = "Crown of Absolute Command", popularity = "3.0%" },
             { id = 178812, name = "Wing Commander's Helmet", popularity = "1.8%" },
             { id = 221146, name = "Soaring Behemoth's Greathelm", popularity = "1.7%" },
-            { id = 243044, name = "Feasting Fiend's Barbute", popularity = "0.7%" }
+            { id = 243044, name = "Feasting Fiend's Barbute", popularity = "0.8%" }
         },
         NECK = {
             { id = 185820, name = "BiSCabochon of the Infinite Flight", popularity = "38.4%" },
-            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "16.5%" },
-            { id = 252009, name = "Bloodstained Memento", popularity = "8.4%" },
+            { id = 185842, name = "Ornately Engraved Amplifier", popularity = "16.4%" },
+            { id = 252009, name = "Bloodstained Memento", popularity = "8.5%" },
             { id = 178827, name = "Sin Stained Pendant", popularity = "7.6%" },
-            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "7.0%" }
+            { id = 215136, name = "Amulet of Earthen Craftsmanship", popularity = "7.3%" }
         },
         SHOULDERS = {
-            { id = 237608, name = "BiSLiving Weapon's Ramparts", popularity = "86.1%" },
+            { id = 237608, name = "BiSLiving Weapon's Ramparts", popularity = "86.3%" },
             { id = 185803, name = "Stoneflesh Spaulders", popularity = "2.8%" },
             { id = 246286, name = "Spaulders of Unleashed Pride", popularity = "1.4%" },
-            { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "1.2%" },
+            { id = 221203, name = "Reanimator's Pyreforged Shoulders", popularity = "1.1%" },
             { id = 221155, name = "Swarm Monarch's Spaulders", popularity = "1.1%" }
         },
         BACK = {
-            { id = 235499, name = "BiSReshii Wraps", popularity = "96.6%" }
+            { id = 235499, name = "BiSReshii Wraps", popularity = "96.7%" }
         },
         CHEST = {
-            { id = 237613, name = "Living Weapon's Bulwark", popularity = "57.3%" },
+            { id = 237613, name = "Living Weapon's Bulwark", popularity = "57.4%" },
             { id = 221161, name = "BiSExperimental Goresilk Chestguard", popularity = "11.3%" },
             { id = 178814, name = "Breastplate of Otherworldly Influence", popularity = "10.1%" },
-            { id = 221139, name = "Dark Priest's Carapace", popularity = "4.9%" },
+            { id = 221139, name = "Dark Priest's Carapace", popularity = "5.0%" },
             { id = 222430, name = "Everforged Breastplate", popularity = "3.0%" }
         },
         WRISTS = {
-            { id = 222435, name = "BiSEverforged Vambraces", popularity = "53.7%" },
+            { id = 222435, name = "BiSEverforged Vambraces", popularity = "54.3%" },
             { id = 221118, name = "Flameforged Armguard", popularity = "10.6%" },
-            { id = 242475, name = "Eco-Dome Access Bands", popularity = "9.3%" },
+            { id = 242475, name = "Eco-Dome Access Bands", popularity = "9.1%" },
             { id = 237545, name = "Discarded Nutrient Shackles", popularity = "6.1%" },
-            { id = 185815, name = "Vambraces of Verification", popularity = "5.1%" }
+            { id = 185815, name = "Vambraces of Verification", popularity = "5.0%" }
         },
         HANDS = {
-            { id = 237611, name = "BiSLiving Weapon's Crushers", popularity = "84.0%" },
-            { id = 221151, name = "Devourer's Gauntlets", popularity = "3.3%" },
-            { id = 234504, name = "Jumpstarter's Scaffold-Scrapers", popularity = "1.6%" },
+            { id = 237611, name = "BiSLiving Weapon's Crushers", popularity = "84.4%" },
+            { id = 221151, name = "Devourer's Gauntlets", popularity = "3.2%" },
+            { id = 234504, name = "Jumpstarter's Scaffold-Scrapers", popularity = "1.5%" },
             { id = 237526, name = "Breached Containment Guards", popularity = "1.2%" },
             { id = 211032, name = "Secret-Dredger's Gauntlets", popularity = "1.2%" }
         },
         WAIST = {
-            { id = 245966, name = "Durable Information Securing Container", popularity = "38.0%" },
-            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "29.0%" },
+            { id = 245966, name = "Durable Information Securing Container", popularity = "36.9%" },
+            { id = 222431, name = "BiSEverforged Greatbelt", popularity = "29.9%" },
             { id = 234505, name = "Venture Contractor's Floodlight", popularity = "9.7%" },
             { id = 246287, name = "Improvisational Girdle", popularity = "6.6%" },
-            { id = 237550, name = "Fresh Ethereal Fetters", popularity = "3.8%" }
+            { id = 237550, name = "Fresh Ethereal Fetters", popularity = "3.9%" }
         },
         LEGS = {
-            { id = 237609, name = "BiSLiving Weapon's Legguards", popularity = "76.5%" },
+            { id = 237609, name = "BiSLiving Weapon's Legguards", popularity = "76.6%" },
             { id = 178818, name = "Halkias's Towering Pillars", popularity = "5.4%" },
             { id = 185798, name = "Quantum Leapers", popularity = "3.2%" },
             { id = 246278, name = "Overpressure Platelegs", popularity = "2.5%" },
             { id = 237530, name = "Shrapnel-Fused Legguards", popularity = "2.2%" }
         },
         FEET = {
-            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "35.2%" },
-            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "10.8%" },
+            { id = 243307, name = "BiSInterloper's Plated Sabatons", popularity = "35.7%" },
+            { id = 185787, name = "Implacable Weatherproof Treads", popularity = "10.7%" },
             { id = 221123, name = "Devoted Plate Walkers", popularity = "10.7%" },
-            { id = 237990, name = "Void-Scarred Captain's Sollerets", popularity = "6.8%" },
-            { id = 222429, name = "Everforged Sabatons", popularity = "6.5%" }
+            { id = 237990, name = "Void-Scarred Captain's Sollerets", popularity = "6.7%" },
+            { id = 222429, name = "Everforged Sabatons", popularity = "6.6%" }
         },
         FINGER1 = {
-            { id = 185813, name = "Signet of Collapsing Stars", popularity = "44.3%" },
-            { id = 221136, name = "Devout Zealot's Ring", popularity = "32.4%" },
-            { id = 246281, name = "Ring of the Panoply", popularity = "27.0%" },
-            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "18.4%" },
-            { id = 242491, name = "Whispers of K'aresh", popularity = "12.8%" }
+            { id = 185813, name = "Signet of Collapsing Stars", popularity = "44.5%" },
+            { id = 221136, name = "Devout Zealot's Ring", popularity = "32.1%" },
+            { id = 246281, name = "Ring of the Panoply", popularity = "27.2%" },
+            { id = 215135, name = "Ring of Earthen Craftsmanship", popularity = "19.1%" },
+            { id = 242491, name = "Whispers of K'aresh", popularity = "12.6%" }
         },
         MAIN_HAND = {
-            { id = 222440, name = "Everforged Longsword", popularity = "44.5%" },
-            { id = 237813, name = "Factory-Issue Plexhammer", popularity = "10.4%" },
-            { id = 185824, name = "Blade of Grievous Harm", popularity = "8.3%" },
-            { id = 221145, name = "Shipwrecker's Bludgeon", popularity = "7.9%" },
+            { id = 222440, name = "Everforged Longsword", popularity = "44.3%" },
+            { id = 237813, name = "Factory-Issue Plexhammer", popularity = "10.7%" },
+            { id = 185824, name = "Blade of Grievous Harm", popularity = "8.4%" },
+            { id = 221145, name = "Shipwrecker's Bludgeon", popularity = "8.0%" },
             { id = 242470, name = "Mandibular Bonewhacker", popularity = "7.1%" }
         },
         OFF_HAND = {
-            { id = 222432, name = "Everforged Defender", popularity = "64.4%" },
-            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "8.0%" },
+            { id = 222432, name = "Everforged Defender", popularity = "64.1%" },
+            { id = 237723, name = "BiSWard of the Weaving-Beast", popularity = "8.2%" },
             { id = 242493, name = "Starlit Safeguard", popularity = "6.1%" },
             { id = 185811, name = "Package Protector", popularity = "5.0%" },
             { id = 221117, name = "Sanctified Priory Wall", popularity = "4.4%" }
         },
         TRINKET1 = {
-            { id = 242401, name = "Brand of Ceaseless Ire", popularity = "42.0%" },
-            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "36.6%" },
-            { id = 242395, name = "Astral Antenna", popularity = "18.9%" },
+            { id = 242401, name = "Brand of Ceaseless Ire", popularity = "42.5%" },
+            { id = 232541, name = "Improvised Seaforium Pacemaker", popularity = "36.5%" },
+            { id = 242395, name = "Astral Antenna", popularity = "19.2%" },
             { id = 219314, name = "Ara-Kara Sacbrood", popularity = "17.1%" },
-            { id = 219309, name = "Tome of Light's Devotion", popularity = "15.0%" }
+            { id = 219309, name = "Tome of Light's Devotion", popularity = "15.1%" }
         },
         consumables = {
             { id = 212283, name = "Flask of Alchemical Chaos", popularity = "34.0%" },

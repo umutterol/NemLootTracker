@@ -5,24 +5,24 @@ WishListData_Priest = {
         talent = "CAQAAAAAAAAAAAAAAAAAAAAAAAgtZmZMGjxMzYmNz2MzMzMAAAAAAAAAAAWmlZbwMzgZhhxYMMLsNTzMxyAzMAQAmtZbDM2sBAA",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "50.0%" },
+            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "50.3%" },
             LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "57.5%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "64.7%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "59.3%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "64.8%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "59.4%" },
             WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "43.2%" },
-            RINGS = { id = 223674, name = "Radiant Haste", popularity = "42.2%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "39.1%" }
+            RINGS = { id = 223674, name = "Radiant Haste", popularity = "42.4%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "38.9%" }
         },
         epic_gems = {
-            { id = 213746, name = "Elusive Blasphemite", popularity = "41.1%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "41.2%" },
             { id = 213743, name = "Culminating Blasphemite", popularity = "18.7%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "7.5%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "7.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         gems = {
-            { id = 213746, name = "Elusive Blasphemite", popularity = "41.1%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "41.2%" },
             { id = 213743, name = "Culminating Blasphemite", popularity = "18.7%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "7.5%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "7.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         HEAD = {
@@ -259,24 +259,24 @@ WishListData_Priest = {
         talent = "CIQAAAAAAAAAAAAAAAAAAAAAAMMMAAAAAAAAAAAAYMWGjZmZbZjZmZmZmZZwsxMzMMbMLYMGmFz2UzMYBzAMzmlhZzAQGjFAYbGA",
         statprio = "Mastery > Haste > Crit > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "54.7%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "80.2%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "84.2%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "57.0%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "42.2%" },
-            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "50.0%" },
-            MAINHAND = { id = 223765, name = "Stonebound Artistry", popularity = "27.9%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "54.5%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "80.1%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "84.3%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "57.1%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "42.6%" },
+            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "50.1%" },
+            MAINHAND = { id = 223765, name = "Stonebound Artistry", popularity = "28.1%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "41.2%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "27.9%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "1.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "41.4%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "27.6%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "1.1%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "41.2%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "27.9%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "1.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "41.4%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "27.6%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "1.1%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         HEAD = {
@@ -374,11 +374,11 @@ WishListData_Priest = {
             { id = 242494, name = "Lily of the Eternal Weave", popularity = "17.1%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "56.3%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "38.3%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "56.5%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "38.6%" },
             { id = 212265, name = "Tempered Potion", popularity = "57.5%" },
-            { id = 222720, name = "The Sushi Special", popularity = "13.2%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "80.7%" }
+            { id = 222720, name = "The Sushi Special", popularity = "13.3%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "80.8%" }
         }
     }
 }

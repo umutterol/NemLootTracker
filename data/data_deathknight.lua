@@ -5,22 +5,22 @@ WishListData_Deathknight = {
         talent = "CoPAAAAAAAAAAAAAAAAAAAAAAwwYmZGzYmZGmxYmpZGjZMzMAAAAAzMzMzMzMzmZmxAAAYmZmBAAAYgBmxoxyGglBsBwMYDA",
         statprio = "Strength > Haste > Mastery > Crit > Vers",
         enchants = {
-            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "33.0%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "75.1%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "79.0%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "54.4%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "33.2%" },
-            RINGS = { id = 223680, name = "Radiant Versatility", popularity = "26.8%" },
-            MAINHAND = { id = nil, name = "Rune of the Fallen Crusader", popularity = "69.3%" }
+            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "33.2%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "75.5%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "79.2%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "54.7%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "33.1%" },
+            RINGS = { id = 223680, name = "Radiant Versatility", popularity = "27.0%" },
+            MAINHAND = { id = nil, name = "Rune of the Fallen Crusader", popularity = "69.5%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "38.6%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "38.8%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "22.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "38.6%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "38.8%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "22.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
@@ -238,11 +238,11 @@ WishListData_Deathknight = {
             { id = 190958, name = "So'leah's Secret Technique", popularity = "8.2%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "53.9%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "35.7%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "54.4%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "35.9%" },
             { id = 212265, name = "Tempered Potion", popularity = "70.6%" },
-            { id = 222720, name = "The Sushi Special", popularity = "9.1%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "80.1%" }
+            { id = 222733, name = "Feast of the Midnight Masquerade", popularity = "9.1%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "80.2%" }
         }
     },
     UNHOLY = {
@@ -357,10 +357,10 @@ WishListData_Deathknight = {
             { id = 190958, name = "So'leah's Secret Technique", popularity = "8.5%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "56.3%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "28.1%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "56.4%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "28.0%" },
             { id = 212265, name = "Tempered Potion", popularity = "66.0%" },
-            { id = 222720, name = "The Sushi Special", popularity = "14.2%" },
+            { id = 222720, name = "The Sushi Special", popularity = "13.9%" },
             { id = 224107, name = "Algari Mana Oil", popularity = "79.3%" }
         }
     }

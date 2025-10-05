@@ -257,23 +257,23 @@ WishListData_Warlock = {
         talent = "CsQAAAAAAAAAAAAAAAAAAAAAAMMmxMzMjY2MMmNzMDzysZMmZmFzYWWmZGAAAAAzstMzsMPgFYgZxoxMAmNshBAAAAAAwMGzAA",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "62.6%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "83.0%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "62.7%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "83.1%" },
             CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "86.0%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "60.6%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "57.4%" },
-            RINGS = { id = 223674, name = "Radiant Haste", popularity = "38.1%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "34.4%" }
+            FEET = { id = 223656, name = "Defender's March", popularity = "60.7%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "57.5%" },
+            RINGS = { id = 223674, name = "Radiant Haste", popularity = "38.2%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "34.1%" }
         },
         epic_gems = {
             { id = 213743, name = "Culminating Blasphemite", popularity = "66.3%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "6.7%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "6.8%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
         gems = {
             { id = 213743, name = "Culminating Blasphemite", popularity = "66.3%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "6.7%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "6.8%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
