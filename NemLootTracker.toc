@@ -3,7 +3,7 @@
 ## Notes: Track your loot, wishlists, gems, enchants, and upgrades with Nem Loot Tracker (NLT).
 ## Interface: 110105, 110107
 ## Author: Nemw
-## Version: 251006-2130
+## Version: 251007-2130
 ## X-Curse-Project-ID: 1309330
 
 data/data_warrior.lua
