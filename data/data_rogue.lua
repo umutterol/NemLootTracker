@@ -5,24 +5,24 @@ WishListData_Rogue = {
         talent = "CMQAAAAAAAAAAAAAAAAAAAAAAYmZMzMmBAAAAAAYWmxsMDAAAAAAttMzMYmBzMzysNYMmZmZmZmZYzyYGgNzyADYBsNMBGWGA",
         statprio = "Mastery > Crit > Vers > Haste",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "65.6%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "86.7%" },
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "65.2%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "86.6%" },
             CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "87.0%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "70.7%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "62.1%" },
-            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "51.8%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "37.3%" },
-            OFFHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "35.5%" }
+            FEET = { id = 223656, name = "Defender's March", popularity = "70.5%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "61.9%" },
+            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "51.9%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "36.6%" },
+            OFFHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "35.1%" }
         },
         epic_gems = {
             { id = 213743, name = "Culminating Blasphemite", popularity = "74.6%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "3.2%" },
-            { id = 217115, name = "Cubic Blasphemia", popularity = "0.5%" }
+            { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         gems = {
             { id = 213743, name = "Culminating Blasphemite", popularity = "74.6%" },
             { id = 213746, name = "Elusive Blasphemite", popularity = "3.2%" },
-            { id = 217115, name = "Cubic Blasphemia", popularity = "0.5%" }
+            { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" }
         },
         HEAD = {
             { id = 237664, name = "BiSHood of the Sudden Eclipse", popularity = "88.3%" },
@@ -131,23 +131,23 @@ WishListData_Rogue = {
         talent = "CQQAAAAAAAAAAAAAAAAAAAAAAAAMz2MYMzYmZmZYGegxMzMMzMz0yMmtZAAAAAAw2yYGMzwCsMbDAAAAzMzAwY2MMwAzCL0CbGA",
         statprio = "Vers > Haste > Crit > Mastery",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "63.4%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "85.2%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "85.6%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "68.1%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "51.6%" },
-            RINGS = { id = 223796, name = "Cursed Versatility", popularity = "44.0%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "54.4%" },
-            OFFHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "51.3%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "63.7%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "85.4%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "86.1%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "69.0%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "51.7%" },
+            RINGS = { id = 223796, name = "Cursed Versatility", popularity = "43.8%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "53.9%" },
+            OFFHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "50.3%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "73.2%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "3.3%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "73.6%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "3.2%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "73.2%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "3.3%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "73.6%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "3.2%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" }
         },
         HEAD = {

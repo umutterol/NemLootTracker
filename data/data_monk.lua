@@ -133,24 +133,24 @@ WishListData_Monk = {
         talent = "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghFLzsMmFz2MmxG2WWmtxDgZbZZmZZhhmZmBmhZAsNjZY2YmhZZmAAAAAMbTbz2MLzGAAAAsA",
         statprio = "Haste > Crit > Vers > Mastery",
         enchants = {
-            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "59.3%" },
-            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "54.3%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "75.9%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "65.0%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "54.1%" },
-            RINGS = { id = 223674, name = "Radiant Haste", popularity = "60.3%" },
-            MAINHAND = { id = 223762, name = "Stormrider's Fury", popularity = "30.6%" }
+            BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "59.6%" },
+            LEGS = { id = 222893, name = "Sunset Spellthread", popularity = "54.6%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "76.2%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "65.3%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "54.4%" },
+            RINGS = { id = 223674, name = "Radiant Haste", popularity = "60.4%" },
+            MAINHAND = { id = 223762, name = "Stormrider's Fury", popularity = "31.0%" }
         },
         epic_gems = {
             { id = 213746, name = "Elusive Blasphemite", popularity = "33.3%" },
-            { id = 213743, name = "Culminating Blasphemite", popularity = "29.6%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "5.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "29.8%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "5.1%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.8%" }
         },
         gems = {
             { id = 213746, name = "Elusive Blasphemite", popularity = "33.3%" },
-            { id = 213743, name = "Culminating Blasphemite", popularity = "29.6%" },
-            { id = 213740, name = "Insightful Blasphemite", popularity = "5.0%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "29.8%" },
+            { id = 213740, name = "Insightful Blasphemite", popularity = "5.1%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.8%" }
         },
         HEAD = {

@@ -120,10 +120,10 @@ WishListData_Paladin = {
             { id = 219314, name = "Ara-Kara Sacbrood", popularity = "14.9%" }
         },
         consumables = {
-            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "32.1%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "16.6%" },
-            { id = 212265, name = "Tempered Potion", popularity = "12.4%" },
-            { id = 222720, name = "The Sushi Special", popularity = "28.5%" },
+            { id = 212274, name = "Flask of Tempered Swiftness", popularity = "32.0%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "16.9%" },
+            { id = 212265, name = "Tempered Potion", popularity = "12.5%" },
+            { id = 222720, name = "The Sushi Special", popularity = "28.6%" },
             { id = 224107, name = "Algari Mana Oil", popularity = "64.9%" }
         }
     },
@@ -133,22 +133,22 @@ WishListData_Paladin = {
         statprio = "Strength > Haste > Crit > Mastery > Vers",
         enchants = {
             BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "67.7%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "74.5%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "83.5%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "61.4%" },
-            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "61.0%" },
-            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "41.4%" },
-            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "37.8%" }
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "74.8%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "83.8%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "61.6%" },
+            WRIST = { id = 223719, name = "Chant of Armored Leech", popularity = "61.2%" },
+            RINGS = { id = 223662, name = "Radiant Critical Strike", popularity = "41.5%" },
+            MAINHAND = { id = 223781, name = "Authority of Radiant Power", popularity = "37.6%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "47.7%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "20.7%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "47.8%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "20.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.3%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "47.7%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "20.7%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "47.8%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "20.6%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.4%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.3%" }
         },
