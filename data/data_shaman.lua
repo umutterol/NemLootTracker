@@ -120,11 +120,11 @@ WishListData_Shaman = {
             { id = 242392, name = "BiSDiamantine Voidcore", popularity = "12.5%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "67.8%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "68.7%" },
             { id = 244839, name = "Invigorating Healing Potion", popularity = "44.7%" },
-            { id = 212265, name = "Tempered Potion", popularity = "66.8%" },
-            { id = 222720, name = "The Sushi Special", popularity = "10.2%" },
-            { id = 224107, name = "Algari Mana Oil", popularity = "71.6%" }
+            { id = 212265, name = "Tempered Potion", popularity = "67.2%" },
+            { id = 222720, name = "The Sushi Special", popularity = "10.0%" },
+            { id = 224107, name = "Algari Mana Oil", popularity = "72.3%" }
         }
     },
     ENHANCEMENT = {
@@ -132,24 +132,24 @@ WishListData_Shaman = {
         talent = "CcQAAAAAAAAAAAAAAAAAAAAAAMzMDMzDMDzMz8AzMLzMYZAAAAAAAAAA2AsZGDbwCMDDNYBAzykZwswMGjxYmNjlZmpZjlxyYmBAYMA",
         statprio = "Haste > Mastery > Crit > Vers",
         enchants = {
-            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "64.6%" },
-            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "80.2%" },
-            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "86.9%" },
-            FEET = { id = 223656, name = "Defender's March", popularity = "69.5%" },
-            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "61.4%" },
-            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "51.5%" },
-            MAINHAND = { id = 223765, name = "Stonebound Artistry", popularity = "59.1%" },
-            OFFHAND = { id = 223765, name = "Stonebound Artistry", popularity = "47.8%" }
+            BACK = { id = 223731, name = "Chant of Winged Grace", popularity = "64.8%" },
+            LEGS = { id = 219911, name = "Stormbound Armor Kit", popularity = "80.1%" },
+            CHEST = { id = 223692, name = "Crystalline Radiance", popularity = "87.3%" },
+            FEET = { id = 223656, name = "Defender's March", popularity = "69.9%" },
+            WRIST = { id = 223713, name = "Chant of Armored Avoidance", popularity = "61.9%" },
+            RINGS = { id = 223677, name = "Radiant Mastery", popularity = "51.9%" },
+            MAINHAND = { id = 223765, name = "Stonebound Artistry", popularity = "59.2%" },
+            OFFHAND = { id = 223765, name = "Stonebound Artistry", popularity = "47.1%" }
         },
         epic_gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "67.0%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "6.2%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "67.4%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "6.5%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
         gems = {
-            { id = 213743, name = "Culminating Blasphemite", popularity = "67.0%" },
-            { id = 213746, name = "Elusive Blasphemite", popularity = "6.2%" },
+            { id = 213743, name = "Culminating Blasphemite", popularity = "67.4%" },
+            { id = 213746, name = "Elusive Blasphemite", popularity = "6.5%" },
             { id = 217115, name = "Cubic Blasphemia", popularity = "0.3%" },
             { id = 213740, name = "Insightful Blasphemite", popularity = "0.1%" }
         },
@@ -377,11 +377,11 @@ WishListData_Shaman = {
             { id = 219314, name = "Ara-Kara Sacbrood", popularity = "11.9%" }
         },
         consumables = {
-            { id = 212271, name = "Flask of Tempered Aggression", popularity = "30.9%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "20.7%" },
-            { id = 212265, name = "Tempered Potion", popularity = "13.5%" },
-            { id = 222720, name = "The Sushi Special", popularity = "27.5%" },
-            { id = nil, name = "Earthliving Weapon", popularity = "89.9%" }
+            { id = 212271, name = "Flask of Tempered Aggression", popularity = "30.8%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "20.3%" },
+            { id = 212265, name = "Tempered Potion", popularity = "13.8%" },
+            { id = 222720, name = "The Sushi Special", popularity = "27.4%" },
+            { id = nil, name = "Earthliving Weapon", popularity = "90.0%" }
         }
     }
 }
