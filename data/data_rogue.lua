@@ -247,11 +247,11 @@ WishListData_Rogue = {
             { id = 246344, name = "Cursed Stone Idol", popularity = "11.8%" }
         },
         consumables = {
-            { id = 212277, name = "Flask of Tempered Versatility", popularity = "73.8%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "37.4%" },
-            { id = 212265, name = "Tempered Potion", popularity = "64.1%" },
-            { id = 222720, name = "The Sushi Special", popularity = "37.2%" },
-            { id = 222504, name = "Ironclaw Whetstone", popularity = "44.6%" }
+            { id = 212277, name = "Flask of Tempered Versatility", popularity = "73.4%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "36.8%" },
+            { id = 212265, name = "Tempered Potion", popularity = "62.7%" },
+            { id = 222720, name = "The Sushi Special", popularity = "36.4%" },
+            { id = 222504, name = "Ironclaw Whetstone", popularity = "43.5%" }
         }
     },
     SUBTLETY = {
@@ -375,9 +375,9 @@ WishListData_Rogue = {
             { id = 242494, name = "Lily of the Eternal Weave", popularity = "13.6%" }
         },
         consumables = {
-            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "45.7%" },
-            { id = 244839, name = "Invigorating Healing Potion", popularity = "46.4%" },
-            { id = 212265, name = "Tempered Potion", popularity = "74.1%" },
+            { id = 212283, name = "Flask of Alchemical Chaos", popularity = "44.9%" },
+            { id = 244839, name = "Invigorating Healing Potion", popularity = "46.7%" },
+            { id = 212265, name = "Tempered Potion", popularity = "74.0%" },
             { id = 222720, name = "The Sushi Special", popularity = "12.1%" },
             { id = 222504, name = "Ironclaw Whetstone", popularity = "68.1%" }
         }

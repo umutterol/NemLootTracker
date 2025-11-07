@@ -129,7 +129,7 @@ WishListData_Evoker = {
     },
     PRESERVATION = {
         icon = "Interface/ICONS/Invoker_Spec_DragonGreen",
-        talent = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2GDwMzYWMzMbDAAAmZYMjxwMxYGAAAYbmZmmxyMzMGzAAwY2swCMwMM0gxCMA",
+        talent = "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2GDwMzYWMzMbDAAAmZMjZMGmJGzAAAAbzMz0MWmZMGzAAwY2swCMwMM0gxCMD",
         statprio = "Haste > Crit > Mastery > Vers",
         enchants = {
             BACK = { id = 223737, name = "Chant of Leeching Fangs", popularity = "52.7%" },
